@@ -1,0 +1,8 @@
+ipython
+nltk
+numpy
+pandas
+psutil
+scikit-learn
+scipy
+pylint
