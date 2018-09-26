@@ -117,8 +117,7 @@ class Closing:
         :rtype: list
         """
         pos_filename = self.filename[:-4] + '.pickle'
-        base_path = Path(os.path.abspath(os.path.dirname(__file__)))
-        full_path = base_path.joinpath(Path('data', 'closings', 'part_of_speech', pos_filename))
+        full_path = BASE_PATH.joinpath(Path('data', 'closings', 'part_of_speech', pos_filename))
 
         try:
             pos_tags = pickle.load(open(full_path, 'rb'))
