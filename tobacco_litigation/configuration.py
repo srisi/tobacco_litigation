@@ -3,8 +3,12 @@ This file contains the general configurations for the tobacco_litigation project
 This includes all stop words added to the sklearn set and all contractions.
 """
 
+import os
 import re
+from pathlib import Path
 
+
+BASE_PATH = Path(os.path.abspath(os.path.dirname(__file__)))
 
 # Split strings into tokens (includes splitting dashes)
 WORD_SPLIT_PATTERN = r"\b\w+\b"
@@ -15,7 +19,9 @@ NGRAM_RANGE = (1,10)
 # retain only numbers between 1800 and 2050 because they can indicate years.
 STOP_WORDS_LITIGATION = frozenset([str(i) for i in range(1800)] +
                                   [str(i) for i in range(2050, 10000)] +
-                                  ["0" + str(i) for i in range(0, 10000)])
+                                  ["0" + str(i) for i in range(0, 10000)] +
+                                  # terms on the bottom of each page of shulman1_0_c_d
+                                  ['9dc6a7f69111', '32fa', '4b55aaf6'])
 
 # exclude lawyer names because they don't contain helpful information
 STOP_WORDS_NAMES = ['tullo', 'aycock', 'ingraham', 'barbanell', 'shirley', 'wilbert', 'cooper',

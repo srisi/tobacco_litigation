@@ -1,66 +1,82 @@
-import os
-import pickle
+import random
 import re
 from pathlib import Path
-import random
 
-import nltk
 import pandas
-from IPython import embed
 
 from tobacco_litigation.closing import Closing
-
-from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer, TfidfTransformer
-
-from tobacco_litigation.configuration import CONTRACTIONS, WORD_SPLIT_REGEX, \
-    WORD_SPLIT_PATTERN, STOP_WORDS_LITIGATION, NGRAM_RANGE
+from tobacco_litigation.configuration import BASE_PATH
 
 # we need shuffling but it should produce the same results every time.
 random.seed(0)
 
 
+class LitigationCorpus:
+    """
+    The Litigation Corpus class provides a wrapper for the whole litigation corpus.
+    It, in turn, stores all closings in the closing attribute
 
+    """
 
+    def __init__(self, use_test_corpus=False, load_part_of_speech=True):
+        """
 
-class Corpus:
+        :param use_test_corpus: if True, only six documents are loaded. Can be used for testing
+        :param load_part_of_speech: if True, part of speech tokens for each text will be loaded
+                                    This is required for the first creation of the distinctive
+                                    token dataset but not afterwards.
+        """
 
-    def __init__(self, use_test_corpus=False):
+        self.load_part_of_speech = load_part_of_speech
         self.closings = self._load_closings()
-        self.test_corpus=False
+        self.test_corpus = False
+
         if use_test_corpus:
             print("Loading six test documents")
             self.test_corpus=True
             self._load_test_corpus()
 
-
     def _load_closings(self):
+        """
+        Loads all closings
 
-        base_path = Path(os.path.abspath(os.path.dirname(__file__)))
-        full_path = base_path.joinpath(Path('data', 'litigation_dataset_master.csv'))
+        :rtype: list(Closing)
+        """
+
+        full_path = BASE_PATH.joinpath(Path('data', 'litigation_dataset_master.csv'))
         closings_metadata = pandas.read_csv(full_path)
 
         closings = []
         for id in range(len(closings_metadata)):
-            # if id >= 3: break
 
-
-            closing = Closing(case =                 closings_metadata['CASE'][id],
-                              side =                 closings_metadata['SIDE'][id],
-                              phase =                closings_metadata['PHASE'][id],
-                              trial_date =           closings_metadata['TRIAL DATE'][id],
-                              doc_date =             closings_metadata['DOC DATE'][id],
-                              outcome =              closings_metadata['OUTCOME'][id],
-                              defendants =           closings_metadata['DEFENDANTS'][id],
-                              defendant_counsel =    closings_metadata['DEF COUNSEL'][id],
-                              compensatory_damages = closings_metadata['Compensatory'][id],
-                              punitive_damages =     closings_metadata['PUNITIVES'][id],
-                              filename =             closings_metadata['FILENAME'][id],
-                              tid =                  closings_metadata['tid'][id])
+            closing = Closing(case =                 closings_metadata.iloc[id]['CASE'],
+                              side =                 closings_metadata.iloc[id]['SIDE'],
+                              phase =                closings_metadata.iloc[id]['PHASE'],
+                              trial_date =           closings_metadata.iloc[id]['TRIAL DATE'],
+                              doc_date =             closings_metadata.iloc[id]['DOC DATE'],
+                              outcome =              closings_metadata.iloc[id]['OUTCOME'],
+                              defendants =           closings_metadata.iloc[id]['DEFENDANTS'],
+                              defendant_counsel =    closings_metadata.iloc[id]['DEF COUNSEL'],
+                              compensatory_damages = closings_metadata.iloc[id]['Compensatory'],
+                              punitive_damages =     closings_metadata.iloc[id]['PUNITIVES'],
+                              filename =             closings_metadata.iloc[id]['FILENAME'],
+                              tid =                  closings_metadata.iloc[id]['tid'],
+                              load_part_of_speech =  self.load_part_of_speech)
             closings.append(closing)
 
         return closings
 
     def _load_test_corpus(self):
+        """
+        Loads a sample corpus consisting of six test documents. Used for testing
+
+        >>> from tobacco_litigation.corpus import LitigationCorpus
+        >>> c = LitigationCorpus(use_test_corpus=True)
+        Loading six test documents
+        >>> len(c.closings)
+        6
+
+        """
 
         self.closings = self.closings[:6]
         data = [
@@ -86,8 +102,8 @@ class Corpus:
 
         split_text_into_slices=True yields each text in 100 word slices
 
-        >>> from tobacco_litigation.corpus import Corpus
-        >>> c = Corpus()
+        >>> from tobacco_litigation.corpus import LitigationCorpus
+        >>> c = LitigationCorpus()
         >>> doc_iterator = c.document_iterator(side='both')
         >>> first_doc = next(doc_iterator)
         >>> first_doc[:52]
@@ -112,25 +128,27 @@ class Corpus:
                     yield " ".join(closing.part_of_speech)
                 else:
                     if split_text_into_sections:
-                        text_clean_split = closing.text_clean.split()
+
+
+                        text_clean_split = closing.get_text_for_tokenization().split()
                         sections = [" ".join(text_clean_split[i:i + 100]) for i in
                                     range(0, len(text_clean_split), 100)]
                         for section in sections:
                             yield section
                     else:
-                        yield closing.text_clean
+                        yield closing.get_text_for_tokenization()
 
     def get_search_term_extracts(self, side, search_term, extract_size=100, no_passages=100):
         """
         Extracts passages with the search term from the documents, including up to extract_size
         surrounding characters on both sides.
 
-        >>> from tobacco_litigation.corpus import Corpus
-        >>> c = Corpus()
+        >>> from tobacco_litigation.corpus import LitigationCorpus
+        >>> c = LitigationCorpus()
         >>> extracts = c.get_search_term_extracts(side='defendant', search_term='Proctor',
         ...                                       extract_size=40)
         >>> extracts[0]['text']
-        'you can do about it and to use dr proctor s words game over unfortunately'
+        "they did not need 8 any help from dr. proctor invading the students' 9 privacy,"
 
         :rtype: list
         """
@@ -165,7 +183,7 @@ class Corpus:
                 sections.append({
                     'tid': closing.tid,
                     'case': closing.case,
-                    'side': side,
+                    'side': closing.side,
                     'date': closing.doc_date,
                     'text': section_text
                 })
@@ -181,9 +199,6 @@ class Corpus:
 
 if __name__ == '__main__':
 
-    c = Closing('c', 'plaintiff', 1, '1998', '1987', 'w', 'RJR', 'test', 100, 100,
-                'ahrens1_1_c_d.txt', 'otehu')
-
-    corpus = Corpus()
+    corpus = LitigationCorpus(load_part_of_speech=False)
     ex = corpus.get_search_term_extracts('plaintiff', 'Proctor')
-    embed()
+    print("LEN", len(ex))

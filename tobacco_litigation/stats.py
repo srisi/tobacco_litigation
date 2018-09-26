@@ -21,7 +21,7 @@ class StatisticalAnalysis:
         tf_transformer_sides.fit(dtm_count_all)
         self.dtm_tf_plaintiff = tf_transformer_sides.transform(self.dtm_count_plaintiff.copy())
         self.dtm_tf_defendant = tf_transformer_sides.transform(self.dtm_count_defendant.copy())
-        True
+
 
     def frequency_ratio(self):
         """
@@ -66,7 +66,7 @@ class StatisticalAnalysis:
         defendant_term_sums = np.array(self.dtm_count_defendant.sum(axis=0)).flatten()
         defendant_total = np.sum(defendant_term_sums)
 
-        frequency_ratios = [0] * len(self.vocabulary)
+        frequency_ratios = [0.0] * len(self.vocabulary)
         frequency_ratios_p = [''] * len(self.vocabulary)
 
         # probability for any given word to come from the plaintiff corpus
@@ -75,17 +75,20 @@ class StatisticalAnalysis:
         # Calculate frequency ratios and handle 0/infinity cases.
         for i in range(len(self.vocabulary)):
             if plaintiff_term_sums[i] == 0:
-                frequency_ratios[i] = 0
+                frequency_ratios[i] = 0.0
             elif defendant_term_sums[i] == 0:
                 # -1 represents infinity here because infinity can't be used in json
-                frequency_ratios[i] = -1
+                frequency_ratios[i] = -1.0
             else:
-                frequency_ratios[i] = ((plaintiff_term_sums[i] / plaintiff_total) /
-                                       (defendant_term_sums[i] / defendant_total))
+                frequency_ratios[i] = float(((plaintiff_term_sums[i] / plaintiff_total) /
+                                       (defendant_term_sums[i] / defendant_total)))
 
             p = binom_test(plaintiff_term_sums[i], plaintiff_term_sums[i] + defendant_term_sums[i],
                            p_plaintiff)
             frequency_ratios_p[i] = self._get_p_value_as_string(p)
+
+            if self.vocabulary[i] == 'want':
+                from IPython import embed; embed()
 
         return frequency_ratios, frequency_ratios_p
 
@@ -188,6 +191,7 @@ class StatisticalAnalysis:
 
         Sparse version of corrcoef adapted from:
         https://stackoverflow.com/questions/19231268/correlation-coefficients-for-sparse-matrix-in-python
+        , which is in turn adapted from the numpy corr_coeff function
         :return:
         """
 
@@ -197,19 +201,16 @@ class StatisticalAnalysis:
                   "(at least 60 GB) than is available on this system. Since the correlations are",
                   "not essential, they will not be calculated here and you will instead see blank",
                   "spaces where they would otherwise appear.")
-            return [""] * len(self.vocabulary)
+            results = {}
+            for term in self.vocabulary: results[term] = ''
+            return results
 
         print("starting cor coeff calc")
+
 
         tf_transformer = TfidfTransformer(use_idf=False)
         dtm_tf_all = tf_transformer.fit_transform(self.dtm_count_all)
         dtm_tf_all = dtm_tf_all.T.tocsr()
-
-        dtm_tf_all = self.dtm_tf_plaintiff.T.tocsr()
-        from IPython import embed;embed()
-
-
-#        A = A.astype(np.float64)
         n = dtm_tf_all.shape[1]
 
         # Compute the covariance matrix
@@ -222,7 +223,7 @@ class StatisticalAnalysis:
         d = np.diag(C)
         corr_coeffs = C / np.sqrt(np.outer(d, d))
 
-        correlation_results = [''] * len(self.vocabulary)
+        correlation_results = {}
         for i, token in enumerate(self.vocabulary):
             print(i)
 
@@ -234,14 +235,26 @@ class StatisticalAnalysis:
                 if len(correlation_result) == 5:
                     break
 
-                correlation = corr_coeffs[i, correlated_token_id]
-                correlated_token = self.vocabulary[correlated_token_id]
+                try:
+                    correlation = corr_coeffs[i, correlated_token_id]
+                    correlated_token = self.vocabulary[correlated_token_id]
+                except IndexError:
+                    print("index error in corr coeff with correlated_token_id: {}".format(
+                        correlated_token_id))
+                    continue
 
+                # nan get sorted to the top -> skip
                 if np.isnan(correlation):
                     continue
+
+                # skip single characters (a, i, s)
+                elif len(correlated_token) == 1:
+                    continue
+
                 # only store correlated 1-grams
                 elif len(correlated_token.split()) > 1:
                     continue
+
                 # token cannot contain the correlated token (e.g. "said" cannot be correlated term
                 # with "he said")
                 elif token.find(correlated_token) > -1:
@@ -254,7 +267,10 @@ class StatisticalAnalysis:
                 else:
                     correlation_result.append((correlated_token, correlation))
 
-            correlation_results[i] = correlation_result
+            correlation_results[token] = correlation_result
+
+        print(correlation_results['plaintiff'])
+        print(len(correlation_results))
 
         return correlation_results
 
@@ -286,9 +302,9 @@ def load_dummy_data():
 
     :rtype: StatisticalAnalysis
     """
-    from tobacco_litigation.corpus import Corpus
+    from tobacco_litigation.corpus import LitigationCorpus
     from tobacco_litigation.dataset_creation import get_count_doc_term_matrices
-    corpus = Corpus(use_test_corpus=True)
+    corpus = LitigationCorpus(use_test_corpus=True)
     vocabulary, dtm_count_all, dtm_count_plaintiff, dtm_count_defendant = get_count_doc_term_matrices(
         max_features=50000, min_df=2, corpus=corpus, part_of_speech=False)
     statistical_analysis = StatisticalAnalysis(dtm_count_all, dtm_count_plaintiff,
