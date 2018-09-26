@@ -1,5 +1,5 @@
 """
-Setup script for gender_novels installation
+Setup script for tobacco_litigation module installation
 """
 import sys
 import setuptools
