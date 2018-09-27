@@ -5,11 +5,12 @@ from collections import defaultdict
 
 import nltk
 import numpy as np
-from IPython import embed
+import pandas as pd
 from scipy.sparse import hstack
 from sklearn.feature_extraction.text import CountVectorizer
 
-from tobacco_litigation.configuration import WORD_SPLIT_PATTERN, STOP_WORDS_LITIGATION, NGRAM_RANGE
+from tobacco_litigation.configuration import WORD_SPLIT_PATTERN, STOP_WORDS_LITIGATION, \
+    NGRAM_RANGE, STOP_WORDS_SKLEARN
 from tobacco_litigation.corpus import LitigationCorpus
 from tobacco_litigation.stats import StatisticalAnalysis
 
@@ -179,9 +180,8 @@ def create_distinctive_terms_dataset(part_of_speech):
         # Check if the token includes a frequent term (only for text, not pos)
         token['includes_frequent_term'] = 0
         if not part_of_speech:
-            token['includes_frequent_term'] = 0
             for t in vocabulary[i].split():
-                if t in STOP_WORDS_LITIGATION:
+                if t in STOP_WORDS_SKLEARN:
                     token['includes_frequent_term'] = 1
                     break
 
@@ -452,5 +452,5 @@ def create_token_database():
 
 
 if __name__ == '__main__':
-#    create_distinctive_terms_dataset(part_of_speech=False)
+
     create_json_dataset()
