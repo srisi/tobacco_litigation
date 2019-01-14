@@ -7,6 +7,7 @@ import pandas
 from tobacco_litigation.closing import Closing
 from tobacco_litigation.configuration import BASE_PATH
 
+
 # we need shuffling but it should produce the same results every time.
 random.seed(0)
 
@@ -15,6 +16,12 @@ class LitigationCorpus:
     """
     The Litigation Corpus class provides a wrapper for the whole litigation corpus.
     It, in turn, stores all closings in the closing attribute
+
+    This doc test mostly assures that the dataset_master.csv is not corrupt. There were some
+    encoding problems in the past.
+    >>> lc = LitigationCorpus(load_part_of_speech=False)
+    >>> lc
+    LitigationCorpus with 318 closings.
 
     """
 
@@ -35,6 +42,7 @@ class LitigationCorpus:
             print("Loading six test documents")
             self.test_corpus=True
             self._load_test_corpus()
+
 
     def _load_closings(self):
         """
@@ -65,6 +73,9 @@ class LitigationCorpus:
             closings.append(closing)
 
         return closings
+
+    def __repr__(self):
+        return f'LitigationCorpus with {len(self.closings)} closings.'
 
     def _load_test_corpus(self):
         """
@@ -148,7 +159,7 @@ class LitigationCorpus:
         >>> extracts = c.get_search_term_extracts(side='defendant', search_term='Proctor',
         ...                                       extract_size=40)
         >>> extracts[0]['text']
-        "they did not need 8 any help from dr. proctor invading the students' 9 privacy,"
+        'a big deal out of this? because dr. proctor, on so many issues, so many things in'
 
         :rtype: list
         """

@@ -110,9 +110,11 @@ def create_distinctive_terms_dataset(part_of_speech):
     print(f"Plaintiff. Shape: {dtm_count_plaintiff.shape}. Count: {dtm_count_plaintiff.sum()}")
     print(f"Defendant. Shape: {dtm_count_defendant.shape}. Count: {dtm_count_defendant.sum()}")
 
+#    from IPython import embed;embed()
+
     # Run the statistical analyses for the corpus
     stats = StatisticalAnalysis(dtm_count_all, dtm_count_plaintiff, dtm_count_defendant, vocabulary)
-    frequency_ratio, frequency_ratio_p = stats.frequency_ratio()
+    frequency_ratio, frequency_ratio_p = stats.frequency_score()
     mann_whitney_rho, mann_whitney_rho_p = stats.mann_whitney_rho()
     dunning_log_likelihood, dunning_log_likelihood_p = stats.dunning_log_likelihood()
 

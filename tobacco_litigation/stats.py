@@ -23,40 +23,39 @@ class StatisticalAnalysis:
         self.dtm_tf_defendant = tf_transformer_sides.transform(self.dtm_count_defendant.copy())
 
 
-    def frequency_ratio(self):
+    def frequency_score(self):
         """
-        Calculates the frequency ratio for each term (how much more often does a term appear in the
-        plaintiff than in the defendant corpus. To get the same value for the defendant corpus,
-        calculate 1/frequency_ratio)
+        Calculates the frequency score for each term.
 
         Given a term t, the frequency ratio is calculated as follows
-        frequency_ratio(t) = frequency_in_plaintiff_docs(t) / frequency_in_defendant_docs(t)
+        frequency_score(t) = frequency_in_plaintiff_docs(t) / (frequency_in_plaintiff_docs(t) +
+                                                                frequency_in_defendant_docs(t))
 
         The p-value calculation takes the difference in corpus sizes between plaintiff and
         defendant corpora into account
 
         >>> statistical_analysis = load_dummy_data()
         Loading six test documents
-        >>> freq, freq_p = statistical_analysis.frequency_ratio()
+        >>> freq, freq_p = statistical_analysis.frequency_score()
 
         Within the dummy documents (see corpus.py, _load_test_corpus() function) most words appear
         in equal numbers in the plaintiff and defendant dummy documents
         Hence, the word "and" gets a Frequency Ratio 1 and a p-value of 1.
         >>> and_index = statistical_analysis.vocabulary.index('and')
         >>> 'And: Frequency Ratio: {}. p-value: {}'.format(freq[and_index], freq_p[and_index])
-        'And: Frequency Ratio: 1.0. p-value: 1.0'
+        'And: Frequency Ratio: 0.5. p-value: 1.0'
 
         The only terms that show divergence are 'plaintiff' and 'defendant'
         "Defendant" only appears in defendant documents and has a frequency ratio of 0
         >>> def_index = statistical_analysis.vocabulary.index('defendant')
         >>> 'Defendant: Frequency Ratio: {}. p-value: {}'.format(freq[def_index], freq_p[def_index])
-        'Defendant: Frequency Ratio: 0. p-value: 0.5'
+        'Defendant: Frequency Ratio: 0.0. p-value: 0.5'
 
         "Plaintiff" only appears in plaintiff docs and has a frequency ratio of infinity.
         However, because json cannot represent infinity, we use -1 to represent infinity.
         >>> pl_index = statistical_analysis.vocabulary.index('plaintiff')
         >>> 'Plaintiff: Frequency Ratio: {}. p-value: {}'.format(freq[pl_index], freq_p[pl_index])
-        'Plaintiff: Frequency Ratio: -1. p-value: 0.5'
+        'Plaintiff: Frequency Ratio: -1.0. p-value: 0.5'
 
         :rtype: tuple(list, list)
         """
@@ -66,8 +65,8 @@ class StatisticalAnalysis:
         defendant_term_sums = np.array(self.dtm_count_defendant.sum(axis=0)).flatten()
         defendant_total = np.sum(defendant_term_sums)
 
-        frequency_ratios = [0.0] * len(self.vocabulary)
-        frequency_ratios_p = [''] * len(self.vocabulary)
+        frequency_scores = [0.0] * len(self.vocabulary)
+        frequency_scores_p = [''] * len(self.vocabulary)
 
         # probability for any given word to come from the plaintiff corpus
         p_plaintiff = float(plaintiff_total / (plaintiff_total + defendant_total))
@@ -75,22 +74,24 @@ class StatisticalAnalysis:
         # Calculate frequency ratios and handle 0/infinity cases.
         for i in range(len(self.vocabulary)):
             if plaintiff_term_sums[i] == 0:
-                frequency_ratios[i] = 0.0
+                frequency_scores[i] = 0.0
             elif defendant_term_sums[i] == 0:
                 # -1 represents infinity here because infinity can't be used in json
-                frequency_ratios[i] = -1.0
+                frequency_scores[i] = -1.0
             else:
-                frequency_ratios[i] = float(((plaintiff_term_sums[i] / plaintiff_total) /
-                                       (defendant_term_sums[i] / defendant_total)))
+
+                plaintiff_freq = plaintiff_term_sums[i] / plaintiff_total
+                defendant_freq = defendant_term_sums[i] / defendant_total
+                frequency_scores[i] = plaintiff_freq / (plaintiff_freq+defendant_freq)
 
             p = binom_test(plaintiff_term_sums[i], plaintiff_term_sums[i] + defendant_term_sums[i],
                            p_plaintiff)
-            frequency_ratios_p[i] = self._get_p_value_as_string(p)
+            frequency_scores_p[i] = self._get_p_value_as_string(p)
 
-            if self.vocabulary[i] == 'want':
-                from IPython import embed; embed()
+#            if self.vocabulary[i] == 'want':
+#                from IPython import embed; embed()
 
-        return frequency_ratios, frequency_ratios_p
+        return frequency_scores, frequency_scores_p
 
     def mann_whitney_rho(self):
         """

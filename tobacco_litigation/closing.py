@@ -1,4 +1,4 @@
-import os
+import re
 import pickle
 from pathlib import Path
 
@@ -67,7 +67,26 @@ class Closing:
             text = text.lower()
             for contraction in CONTRACTIONS:
                 text = text.replace(contraction, CONTRACTIONS[contraction])
-            # replace whitespace
+
+            # remove line numbers
+            text = re.sub(r'\n(\s?\d|1\d|2\d)\s', ' ', text)
+
+            # remove lines that consist only of a number
+            text = re.sub(r'\n\s*\d\s*\n', ' ', text)
+
+            # remove clock times.
+            text = re.sub(r'\b\d{1,2}:\d{2}:\d{2}\b', ' ', text)
+
+            replacements = (
+                'WWW.USLEGALSUPPORT.COM',
+                '813-876-4722'
+                'BROWN VOL12',
+                '4b55aaf6-32fa-4997-8403-9dc6a7f69111'
+            )
+
+            for replacement in replacements:
+                text = re.sub(replacement, ' ', text)
+
             text = " ".join(text.split())
 
             with open(full_clean_path, 'w') as clean_file:
@@ -85,8 +104,9 @@ class Closing:
         ...             5000000, 'ahrens1_1_c_p.txt', 'kglw0225')
         >>> c.text_clean.split()[:6] # split because of leading white space
         ['closing', 'statement', 'mr.', 'paige:', 'good', 'morning.']
-        >>> c.text_clean[:39]
+        >>> c.get_text_for_tokenization()[:39]
         'closing statement mr paige good morning'
+
 
         :rtype: str
         """

@@ -39,6 +39,7 @@
 1953 when
 1954
 1954 and
+1954 that
 1955
 1956
 1957
@@ -170,15 +171,10 @@
 21st 1996
 30s
 30s and
-32fa
-32fa 9dc6a7f69111
 3rd
 40s
 40s and
 40s and 50s
-4b55aaf6
-4b55aaf6 32fa
-4b55aaf6 32fa 9dc6a7f69111
 50s
 50s 60s
 50s 60s 70s
@@ -214,7 +210,6 @@
 8th
 90s
 90s and
-9dc6a7f69111
 a
 a a
 a and
@@ -253,6 +248,7 @@ a brief
 a bunch
 a bunch of
 a burden
+a burden of
 a business
 a but
 a but for
@@ -364,23 +360,18 @@ a court of law
 a courtroom
 a criminal
 a criminal case
-a critical
 a ct
 a ct scan
-a culture
 a cup
-a cup of
 a curative
 a daily
 a dangerous
 a day
 a day and
-a day but
 a day for
 a day for years
 a day he
 a day in
-a day it
 a day of
 a day or
 a day or two
@@ -400,7 +391,6 @@ a defective
 a defective product
 a defendant
 a defense
-a defense verdict
 a definition
 a definition of
 a definition of addiction
@@ -438,7 +428,6 @@ a duty
 a duty to
 a fact
 a fact that
-a factor
 a failure
 a fair
 a fair and
@@ -655,7 +644,6 @@ a lot of testimony
 a lot of the
 a lot of things
 a lot of time
-a lot of time on
 a lot of time talking
 a lot of time talking about
 a lot to
@@ -681,7 +669,6 @@ a man who
 a manufacturer
 a marlboro
 a mass
-a massive
 a material
 a material fact
 a material fact concerning
@@ -722,7 +709,6 @@ a minute but
 a minute you
 a misstatement
 a misstatement of
-a misstatement of the
 a mistake
 a mistrial
 a moment
@@ -753,7 +739,6 @@ a normal
 a note
 a number
 a number of
-a number of times
 a nurse
 a one
 a pack
@@ -792,7 +777,6 @@ a person
 a person is
 a person s
 a person who
-a person who is
 a personal
 a personal choice
 a pft
@@ -937,7 +921,6 @@ a scientific
 a scientist
 a second
 a secret
-a secret to
 a self
 a self rationale
 a self rationale to
@@ -947,7 +930,6 @@ a sense
 a separate
 a series
 a series of
-a series of questions
 a serious
 a serious effort
 a serious effort to
@@ -978,7 +960,6 @@ a situation where
 a slide
 a slide that
 a small
-a smart
 a smoke
 a smoker
 a smoker and
@@ -999,7 +980,6 @@ a speech
 a statement
 a statement by
 a statement from
-a statement or
 a statement that
 a step
 a stipulation
@@ -1244,11 +1224,9 @@ about it if
 about it in
 about it is
 about it it
-about it it is
 about it so
 about it that
 about it the
-about it there
 about it they
 about it this
 about it was
@@ -1338,6 +1316,7 @@ about the addictive
 about the addictive nature
 about the addictive nature of
 about the addictiveness
+about the amount
 about the burden
 about the burden of
 about the burden of proof
@@ -1393,6 +1372,7 @@ about the surgeon
 about the surgeon general
 about the surgeon general s
 about the surgeon general s report
+about the things
 about the time
 about the tobacco
 about the verdict
@@ -1425,6 +1405,7 @@ about well
 about what
 about what dr
 about what he
+about what i
 about what is
 about what it
 about what mr
@@ -1452,11 +1433,13 @@ about whether or not
 about whether she
 about whether smoking
 about whether the
+about whether to
 about whether you
 about which
 about who
 about why
 about with
+about withdrawal
 about years
 about you
 about you know
@@ -1485,6 +1468,7 @@ accept an interest in
 accept an interest in people
 accept an interest in people s
 accept an interest in people s health
+accept an interest in people s health as
 accept it
 accept responsibility
 accept responsibility for
@@ -1541,6 +1525,7 @@ act in
 act like
 act of
 act of another
+act of another or
 acted
 acted as
 acted differently
@@ -1567,6 +1552,9 @@ acts of god and
 acts of god and luck
 acts of god and luck we
 acts of god and luck we hope
+acts of god and luck we hope we
+acts of god and luck we hope we may
+acts of god and luck we hope we may find
 acts or
 acts or omissions
 actual
@@ -1641,6 +1629,7 @@ addicted that is
 addicted the
 addicted then
 addicted there
+addicted there is
 addicted they
 addicted this
 addicted this is
@@ -1781,6 +1770,7 @@ addiction the
 addiction there
 addiction there is
 addiction there is no
+addiction there is no intoxication
 addiction they
 addiction this
 addiction this is
@@ -1993,6 +1983,7 @@ advertisements for
 advertisements that
 advertising
 advertising and
+advertising but
 advertising campaign
 advertising cigarettes
 advertising for
@@ -2009,7 +2000,6 @@ advertising to
 advertising was
 advertising you
 advice
-advised
 advisory
 advisory committee
 advocate
@@ -2024,7 +2014,6 @@ affidavit
 affirmative
 afraid
 african
-african americans
 after
 after 1982
 after a
@@ -2075,13 +2064,11 @@ again a
 again after
 again all
 again and
-again and again
 again because
 again but
 again dr
 again for
 again for your
-again from
 again he
 again i
 again i m
@@ -2175,8 +2162,6 @@ agreed that
 agreed that the
 agreed to
 agreed to conceal
-agreed to conceal or
-agreed to conceal or omit
 agreed with
 agreed with me
 agreed with that
@@ -2222,7 +2207,6 @@ alive
 all
 all a
 all about
-all about that
 all about the
 all agree
 all agreed
@@ -2390,8 +2374,10 @@ all together
 all up
 all we
 all we have
+all we have to
 all we know
 all were
+all what
 all you
 all you have
 all you have to
@@ -2502,9 +2488,13 @@ ama through acts
 ama through acts of
 ama through acts of god
 ama through acts of god and
+ama through acts of god and luck
+ama through acts of god and luck we
+ama through acts of god and luck we hope
 amazing
 america
 america and
+america we
 american
 american cancer
 american cancer society
@@ -2545,6 +2535,7 @@ amount of nicotine
 amount of time
 amount that
 amount to
+amount you
 amounts
 amounts of
 an
@@ -2614,6 +2605,7 @@ an example
 an example of
 an excellent
 an excellent job
+an excuse
 an expert
 an expert in
 an expert on
@@ -2758,6 +2750,7 @@ and as we
 and as you
 and ask
 and ask for
+and ask you
 and ask yourself
 and asked
 and at
@@ -2784,6 +2777,7 @@ and beyond
 and billions
 and both
 and bring
+and brown
 and but
 and buy
 and by
@@ -2888,6 +2882,7 @@ and down
 and dr
 and dr benowitz
 and dr burns
+and dr burns said
 and dr burns told
 and dr cummings
 and dr cummings told
@@ -2960,6 +2955,7 @@ and gentlemen if
 and gentlemen is
 and gentlemen it
 and gentlemen it is
+and gentlemen mr
 and gentlemen of
 and gentlemen of the
 and gentlemen of the jury
@@ -2999,6 +2995,7 @@ and he admitted
 and he agreed
 and he also
 and he came
+and he chose
 and he continued
 and he could
 and he could not
@@ -3031,6 +3028,7 @@ and he said that
 and he said the
 and he said well
 and he said yes
+and he said you
 and he says
 and he showed
 and he showed you
@@ -3355,11 +3353,6 @@ and low tar cigarettes
 and luck
 and luck we
 and luck we hope
-and luck we hope we
-and luck we hope we may
-and luck we hope we may find
-and luck we hope we may find them
-and lucky
 and lung
 and lung cancer
 and made
@@ -3367,7 +3360,6 @@ and magazines
 and make
 and make a
 and make it
-and making
 and many
 and marketing
 and marlboro
@@ -3742,12 +3734,8 @@ and the evidence that
 and the fact
 and the fact that
 and the first
-and the first thing
 and the following
 and the following is
-and the following is in
-and the following is in open
-and the following is in open court
 and the following proceedings
 and the following proceedings were
 and the following proceedings were held
@@ -3766,7 +3754,6 @@ and the health that may
 and the health that may depend
 and the health that may depend on
 and the health that may depend on it
-and the industry
 and the instructions
 and the judge
 and the judge will
@@ -3830,7 +3817,6 @@ and then the next
 and then there
 and then there is
 and then they
-and then this
 and then we
 and then we have
 and then we will
@@ -3874,7 +3860,6 @@ and they could
 and they did
 and they did it
 and they did not
-and they did not tell
 and they do
 and they do not
 and they get
@@ -4200,7 +4185,6 @@ another cigarette
 another document
 another example
 another one
-another one of
 another or
 another or some
 another phase
@@ -4308,7 +4292,6 @@ any disease
 any doctor
 any doubt
 any effect
-any effect on
 any effort
 any effort to
 any event
@@ -4316,12 +4299,10 @@ any evidence
 any evidence in
 any evidence in this
 any evidence in this case
-any evidence in this case that
 any evidence of
 any evidence that
 any evidence to
 any fault
-any fault that
 any further
 any good
 any harm
@@ -4438,8 +4419,10 @@ anything reynolds
 anything that
 anything that philip
 anything that philip morris
+anything that the
 anything the
 anything the tobacco
+anything the tobacco companies
 anything they
 anything they did
 anything they did not
@@ -4498,9 +4481,13 @@ appreciate it
 appreciate that
 appreciate the
 appreciate your
+appreciate your time
+appreciates
 approach
+approach please
 approach the
 approach the court
+approach the court sure
 appropriate
 approved
 approximately
@@ -4631,6 +4618,7 @@ are given
 are giving
 are going
 are going to
+are going to answer
 are going to ask
 are going to ask you
 are going to ask you to
@@ -4658,10 +4646,12 @@ are going to hear
 are going to look
 are going to look at
 are going to make
+are going to need
 are going to put
 are going to say
 are going to see
 are going to see that
+are going to show
 are going to smoke
 are going to take
 are going to talk
@@ -4777,6 +4767,7 @@ are part of
 are people
 are people who
 are probably
+are punitive
 are punitive damages
 are putting
 are questions
@@ -4790,7 +4781,6 @@ are right
 are safe
 are safer
 are saying
-are saying is
 are saying that
 are selling
 are similar
@@ -4855,7 +4845,6 @@ are very
 are warranted
 are warranted against
 are warranted and
-are warranted in
 are we
 are we going
 are we going to
@@ -5077,6 +5066,7 @@ as part
 as part of
 as part of the
 as possible
+as possible to
 as she
 as soon
 as soon as
@@ -5113,7 +5103,9 @@ as we know
 as well
 as well and
 as well as
+as well but
 as well so
+as well that
 as you
 as you are
 as you are concerned
@@ -5176,7 +5168,6 @@ asked her
 asked her about
 asked him
 asked him about
-asked him did
 asked him i
 asked him to
 asked him what
@@ -5185,7 +5176,6 @@ asked in
 asked is
 asked mr
 asked mrs
-asked of
 asked questions
 asked that
 asked the
@@ -5220,7 +5210,6 @@ aspiration
 assess
 assess the
 assessing
-assessing the
 assessment
 assign
 assigned
@@ -5228,7 +5217,6 @@ assignment
 assignment of
 assignment of fault
 assistance
-assistant
 associated
 associated with
 associated with smoking
@@ -5335,7 +5323,6 @@ at the facts
 at the first
 at the instructions
 at the mayo
-at the mayo clinic
 at the medical
 at the medical records
 at the next
@@ -5469,7 +5456,6 @@ avera
 average
 avery
 avoid
-avoid her
 avoid his
 avoid the
 avoided
@@ -5498,7 +5484,6 @@ awareness
 awareness of
 away
 away and
-away but
 away from
 away his
 away in
@@ -5524,14 +5509,12 @@ back as
 back at
 back at the
 back because
-back but
 back for
 back from
 back he
 back here
 back i
 back in
-back in 1954
 back in the
 back in the 50s
 back in the 60s
@@ -5685,7 +5668,6 @@ baum s
 bayuk
 bayuk your
 bayuk your honor
-bayuk your honor i
 be
 be a
 be a cause
@@ -5736,7 +5718,6 @@ be based on
 be based on the
 be because
 be better
-be brief
 be but
 be called
 be caused
@@ -5855,6 +5836,9 @@ be subject to
 be subject to a
 be subject to a finding
 be subject to a finding that
+be subject to a finding that we
+be subject to a finding that we are
+be subject to a finding that we are making
 be sure
 be taken
 be talking
@@ -5886,6 +5870,7 @@ be up
 be used
 be very
 be warned
+be warned of
 be we
 be we do
 be we do not
@@ -5896,6 +5881,7 @@ be wonderful
 be wonderful if
 be wonderful if our
 be wonderful if our company
+be wonderful if our company was
 be wrong
 be yes
 be you
@@ -5963,6 +5949,7 @@ because if they
 because if you
 because in
 because it
+because it did
 because it does
 because it does not
 because it is
@@ -6024,6 +6011,7 @@ because there is
 because there is a
 because there is no
 because there was
+because there were
 because these
 because they
 because they are
@@ -6095,6 +6083,7 @@ been a
 been a holding
 been a holding strategy
 been a long
+been a long trial
 been a lot
 been a lot of
 been able
@@ -6137,6 +6126,7 @@ been proven
 been proven that
 been proven to
 been proven to be
+been said
 been shown
 been smoking
 been smoking for
@@ -6168,6 +6158,7 @@ before but
 before congress
 before dr
 before he
+before he died
 before he ever
 before he got
 before he was
@@ -6308,6 +6299,7 @@ believe
 believe and
 believe dr
 believe he
+believe i
 believe in
 believe is
 believe is that
@@ -6504,7 +6496,6 @@ blaming
 blank
 blasco
 blend
-blew
 blind
 blitch
 block
@@ -6563,6 +6554,7 @@ bottom line is that
 bottom of
 bottom of the
 bought
+bought a
 bought the
 bound
 bound by
@@ -6643,6 +6635,7 @@ brilliantly conceived
 brilliantly conceived and
 brilliantly conceived and executed
 brilliantly conceived and executed over
+brilliantly conceived and executed over the
 bring
 bring a
 bring in
@@ -6707,14 +6700,17 @@ brown williamson tobacco
 bryan
 brynner
 buchanan
+buchanan s
 buck
 buck aycock
 buck aycock s
+bucks
 buddies
 build
 build a
 building
 built
+bullet
 bunch
 bunch of
 buonomo
@@ -6749,6 +6745,7 @@ burden to prove to
 burden to prove to you
 burkhart
 burn
+burn tobacco
 burned
 burney
 burning
@@ -6762,6 +6759,7 @@ burns and dr cummings
 burns did
 burns dr
 burns explained
+burns has
 burns he
 burns is
 burns said
@@ -6779,6 +6777,7 @@ burns told you that
 burns was
 burns who
 burton
+bury
 bus
 business
 business and
@@ -7186,8 +7185,6 @@ by you
 by your
 byrd
 c
-c everett
-c everett koop
 c o
 c o p
 c o p d
@@ -7371,7 +7368,6 @@ can use your
 can we
 can we approach
 can we approach the
-can we approach the court
 can we go
 can we have
 can we see
@@ -7480,6 +7476,7 @@ cancer okay
 cancer on
 cancer or
 cancer or copd
+cancer remember
 cancer research
 cancer scare
 cancer she
@@ -7530,6 +7527,7 @@ cancer you know
 cancerous
 cancers
 cancers are
+cancers that
 candid
 candidly
 candy
@@ -7627,7 +7625,6 @@ career
 careful
 carefully
 careless
-cares
 caring
 carol
 carol lasard
@@ -7669,14 +7666,12 @@ case and what
 case and you
 case are
 case as
-case at
 case based
 case based on
 case because
 case but
 case by
 case comes
-case did
 case do
 case dr
 case for
@@ -7684,9 +7679,10 @@ case from
 case has
 case has been
 case he
-case here
+case he is
 case i
 case i m
+case i think
 case i want
 case i want to
 case if
@@ -7705,7 +7701,6 @@ case is only
 case is only about
 case is over
 case is still
-case is still open
 case is that
 case it
 case it is
@@ -7724,6 +7719,7 @@ case now
 case of
 case on
 case on the
+case one
 case or
 case she
 case should
@@ -7743,7 +7739,6 @@ case there
 case there is
 case there is no
 case they
-case they have
 case this
 case this is
 case to
@@ -7836,8 +7831,11 @@ cause lung cancer and
 cause means
 cause mr
 cause not
+cause not the
 cause now
 cause occurs
+cause occurs at
+cause occurs at the
 cause of
 cause of a
 cause of cancer
@@ -7845,6 +7843,7 @@ cause of cancer of
 cause of cancer of the
 cause of death
 cause of death and
+cause of death even
 cause of her
 cause of her copd
 cause of her death
@@ -7894,6 +7893,7 @@ cause you
 caused
 caused by
 caused by an
+caused by an addiction
 caused by cigarette
 caused by cigarette smoking
 caused by her
@@ -7916,7 +7916,6 @@ caused him to smoke
 caused his
 caused his cancer
 caused his death
-caused his disease
 caused his lung
 caused his lung cancer
 caused it
@@ -8051,7 +8050,6 @@ change
 change her
 change his
 change in
-change that
 change the
 change their
 change your
@@ -8110,7 +8108,6 @@ check no to
 check off
 check that
 check yes
-check yes on
 check your
 checked
 checking
@@ -8296,7 +8293,6 @@ cigarette smokers
 cigarette smoking
 cigarette smoking and
 cigarette smoking and emphysema
-cigarette smoking as
 cigarette smoking because
 cigarette smoking caused
 cigarette smoking causes
@@ -8330,7 +8326,6 @@ cigarette smoking no causal relationship between cigarette smoking
 cigarette smoking no causal relationship between cigarette smoking and
 cigarette smoking no causal relationship between cigarette smoking and emphysema
 cigarette smoking or
-cigarette smoking the
 cigarette smoking was
 cigarette smoking was a
 cigarette smoking was dangerous
@@ -8447,6 +8442,7 @@ cigarettes containing nicotine is
 cigarettes containing nicotine is a
 cigarettes containing nicotine is a legal
 cigarettes containing nicotine is a legal cause
+cigarettes containing nicotine is a legal cause of
 cigarettes containing nicotine manufactured
 cigarettes containing nicotine manufactured by
 cigarettes containing nicotine the
@@ -8467,6 +8463,7 @@ cigarettes even
 cigarettes every
 cigarettes for
 cigarettes for a
+cigarettes for the
 cigarettes for years
 cigarettes from
 cigarettes had
@@ -8478,6 +8475,7 @@ cigarettes he would
 cigarettes i
 cigarettes if
 cigarettes in
+cigarettes in a
 cigarettes in the
 cigarettes in this
 cigarettes is
@@ -8485,6 +8483,7 @@ cigarettes is a
 cigarettes is addictive
 cigarettes it
 cigarettes it is
+cigarettes like
 cigarettes made
 cigarettes manufactured
 cigarettes manufactured by
@@ -8560,6 +8559,7 @@ cigarettes was a legal
 cigarettes was a legal cause
 cigarettes was a legal cause of
 cigarettes we
+cigarettes we know
 cigarettes well
 cigarettes were
 cigarettes were a
@@ -8602,6 +8602,7 @@ citizen
 citizens
 city
 civantos
+civic
 civil
 claim
 claim and
@@ -8650,6 +8651,7 @@ class of
 class period
 class that
 class the
+class then
 classes
 classic
 classic definitions
@@ -8788,8 +8790,6 @@ code
 cofer
 cofer i
 cofer objection
-cofer objection your
-cofer objection your honor
 coffee
 coffee and
 coffin
@@ -8887,7 +8887,6 @@ comes the
 comes to
 comes up
 comes with
-comfort
 comfortable
 comfortable selling
 comfortable selling a
@@ -8922,7 +8921,6 @@ committed to
 committee
 committee and
 committee says
-committee that
 common
 common knowledge
 common sense
@@ -8998,6 +8996,7 @@ comparative
 comparative fault
 comparative fault and
 compare
+compare it
 compare that
 compare that to
 compare the
@@ -9031,6 +9030,7 @@ complete
 completely
 completely different
 complex
+complicate
 complicated
 complications
 complied
@@ -9066,10 +9066,12 @@ conceal or omit material information
 conceal something
 conceal that
 conceal the
+conceal what
 concealed
 concealed and
 concealed from
 concealed information
+concealed it
 concealed material
 concealed or
 concealed or omitted
@@ -9279,8 +9281,10 @@ consistent with the
 consistent with what
 consistently
 consisting
+consisting of
 conspiracy
 conspiracy and
+conspiracy claim
 conspiracy in
 conspiracy is
 conspiracy that
@@ -9302,6 +9306,7 @@ consult
 consulting
 consulting fees
 consumer
+consumer reports
 consumers
 consumption
 contact
@@ -9309,6 +9314,7 @@ contain
 contain nicotine
 contained
 contained in
+contained nicotine
 containing
 containing nicotine
 containing nicotine a
@@ -9349,6 +9355,7 @@ continue and
 continue mr
 continue smoking
 continue smoking and
+continue smoking because
 continue smoking or
 continue smoking that
 continue that
@@ -9357,6 +9364,7 @@ continue to smoke
 continue to smoke and
 continued
 continued smoking
+continued smoking and
 continued smoking as
 continued smoking as free
 continued smoking as free choice
@@ -9676,10 +9684,8 @@ counsel has
 counsel i
 counsel is
 counsel ladies
-counsel ladies and
 counsel mr
 counsel mr schlesinger
-counsel ms
 counsel s
 counsel said
 counsel you
@@ -9719,12 +9725,10 @@ couple weeks
 couple years
 coupons
 course
-course dr
 course he
 course is
 course it
 course it is
-course it was
 course mr
 course not
 course of
@@ -9748,14 +9752,12 @@ court all right mr
 court and
 court as
 court as follows
-court at
 court before
 court but
 court counsel
 court excuse
 court excuse me
 court five
-court five minutes
 court good
 court has
 court has instructed
@@ -9773,7 +9775,6 @@ court i m sorry
 court i think
 court in
 court is
-court is going
 court it
 court it is
 court just
@@ -10024,6 +10025,7 @@ cycle of
 d
 d ask
 d ask you
+d ask you to
 d like
 d like to
 d little
@@ -10149,6 +10151,7 @@ daughter
 daughter and
 daughter in
 daughter in law
+daughter said
 daughters
 david
 david burns
@@ -10276,6 +10279,7 @@ death so that it can
 death that
 death that is
 death that you
+death that you charge
 death the
 death the answer
 death there
@@ -10335,6 +10339,7 @@ decide whether
 decide whether or
 decide whether or not
 decide whether or not to
+decide whether or not to continue
 decide whether you
 decide you
 decided
@@ -10423,6 +10428,7 @@ defendant
 defendant and
 defendant in
 defendant in this
+defendant in this case
 defendant s
 defendant whether
 defendants
@@ -10457,6 +10463,7 @@ defies common sense
 define
 defined
 defined as
+defines
 definitely
 definition
 definition and
@@ -10482,6 +10489,8 @@ degrees
 deleted
 deleted recess
 deleted sidebar
+deleted sidebar the
+deleted sidebar the court
 deliberate
 deliberate and
 deliberately
@@ -10495,6 +10504,7 @@ delivers
 delivery
 delivery device
 delivery of
+dem
 demand
 demeanor
 demonstrate
@@ -10554,7 +10564,6 @@ deposition was
 deposition you
 depositions
 depositions and
-depositions in
 depressed
 depression
 deputy
@@ -10601,7 +10610,6 @@ despite the fact that
 despite what
 destroyed
 detail
-detail but
 details
 deter
 determination
@@ -10637,7 +10645,6 @@ detriment on
 detriment on any
 detriment on any statement
 detriment on the
-devastating
 develop
 develop a
 develop lung
@@ -10663,7 +10670,6 @@ diagnose addiction
 diagnosed
 diagnosed and
 diagnosed as
-diagnosed by
 diagnosed her
 diagnosed him
 diagnosed him with
@@ -10917,7 +10923,6 @@ did she smoke
 did she tell
 did smoke
 did so
-did some
 did something
 did tell
 did that
@@ -10925,7 +10930,6 @@ did that is
 did the
 did the addiction
 did the defendants
-did the evidence
 did the plaintiff
 did their
 did there
@@ -10933,7 +10937,6 @@ did these
 did they
 did they bring
 did they do
-did they do it
 did they do they
 did they have
 did they know
@@ -11001,7 +11004,6 @@ different and
 different choice
 different from
 different people
-different story
 different than
 different than the
 different than what
@@ -11046,7 +11048,6 @@ directly and in natural
 directly and in natural and
 directly and in natural and continuous
 directly and in natural and continuous sequence
-directly and in natural and continuous sequence produced
 directly and in natural and continuous sequence produces
 directly and in natural and continuous sequence produces or
 directly and in natural and continuous sequence produces or contributes
@@ -11292,7 +11293,6 @@ do not have the
 do not have to
 do not have to prove
 do not have to prove that
-do not i
 do not just
 do not know
 do not know about
@@ -11385,7 +11385,6 @@ do not we
 do not work
 do not worry
 do not worry about
-do not worry about it
 do not you
 do not you think
 do now
@@ -11543,6 +11542,7 @@ doctors who
 document
 document and
 document from
+document from the
 document i
 document in
 document is
@@ -11555,6 +11555,7 @@ document the
 document they
 document this
 document this is
+document to
 document where
 document you
 documented
@@ -11598,6 +11599,7 @@ does he
 does he say
 does it
 does it have
+does it have to
 does it make
 does it mean
 does it say
@@ -11871,10 +11873,12 @@ dr benowitz and
 dr benowitz said
 dr bernstein
 dr bertino
+dr bishopric
 dr brady
 dr brant
 dr brooks
 dr burns
+dr burns about
 dr burns admitted
 dr burns admitted that
 dr burns and
@@ -12306,7 +12310,6 @@ efforts to quit smoking
 eight
 eight hours
 eight years
-eighth
 eighty
 eighty percent
 eighty percent of
@@ -12339,8 +12342,6 @@ elements if there are bad
 elements if there are bad elements
 elements if there are bad elements through
 elements if there are bad elements through our
-elements if there are bad elements through our laboratories
-elements if there are bad elements through our laboratories through
 elements of
 elements through
 elements through our
@@ -12379,7 +12380,6 @@ else was
 else would
 else you
 embarrassed
-embrace
 emergency
 emergency room
 emotion
@@ -12391,6 +12391,7 @@ emphysema copd
 emphysema in
 emphysema is
 emphysema or
+emphysema so
 emphysema that
 emphysema was
 emphysematous
@@ -12401,6 +12402,7 @@ employed a single strategy
 employed a single strategy to
 employed a single strategy to defend
 employed a single strategy to defend itself
+employed a single strategy to defend itself on
 employee
 employees
 empty
@@ -12426,6 +12428,7 @@ ended
 ended mr
 ended up
 ends
+ends up
 energy
 engage
 engage in
@@ -12446,8 +12449,10 @@ engle defendants
 engle finding
 engle findings
 engle findings and
+engle findings are
 engle findings do
 engle findings do not
+engle findings do not establish
 engle findings that
 engle jury
 english
@@ -12486,6 +12491,7 @@ entered
 entered into
 entered into an
 entire
+entire case
 entire evidence
 entire evidence in
 entire evidence in the
@@ -12690,6 +12696,7 @@ every single day
 every single one
 every single one of
 every single one of them
+every single time
 every smoker
 every step
 every time
@@ -12711,6 +12718,7 @@ everybody is
 everybody knew
 everybody knows
 everybody s
+everybody said
 everybody smoked
 everybody that
 everybody was
@@ -12719,7 +12727,9 @@ everyday
 everyone
 everyone agrees
 everyone else
+everyone has
 everyone in
+everyone in this
 everyone is
 everyone knew
 everyone who
@@ -12799,6 +12809,7 @@ evidence is clear that
 evidence is evidence
 evidence is evidence that
 evidence is in
+evidence is not
 evidence is overwhelming
 evidence is overwhelming that
 evidence is that
@@ -12853,6 +12864,7 @@ evidence that is precise explicit lacking in confusion and of
 evidence that it
 evidence that mr
 evidence that mrs
+evidence that ms
 evidence that punitive
 evidence that punitive damages
 evidence that punitive damages are
@@ -12862,6 +12874,7 @@ evidence that she
 evidence that she was
 evidence that that
 evidence that the
+evidence that there
 evidence that they
 evidence that was
 evidence that we
@@ -12899,7 +12912,6 @@ evidence with
 evidence would
 evidence would be
 evidence you
-evidence you are
 evidence you can
 evidence you have
 evidence you have heard
@@ -12921,11 +12933,9 @@ exactly how
 exactly that
 exactly the
 exactly the same
-exactly the way
 exactly what
 exactly what happened
 exactly what he
-exactly what i
 exactly what it
 exactly what the
 exactly what they
@@ -12967,7 +12977,6 @@ excess
 excessive
 exchange
 exclude
-exclusion
 exclusively
 excuse
 excuse me
@@ -13152,14 +13161,11 @@ fact when
 fact witness
 fact witnesses
 fact you
-fact you heard
 factor
 factor and
 factor for
 factor in
-factor in the
 factor that
-factor to
 factors
 factors for
 factors that
@@ -13320,9 +13326,6 @@ fault so
 fault that
 fault that is
 fault that was
-fault that was a
-fault that was a legal
-fault that was a legal cause
 fault the
 fault they
 fault to
@@ -13341,7 +13344,6 @@ federal government
 federal trade
 federal trade commission
 feel
-feel better
 feel good
 feel like
 feel that
@@ -13371,7 +13373,6 @@ few more
 few of
 few people
 few things
-few times
 few weeks
 few years
 field
@@ -13394,7 +13395,6 @@ figured
 figured out
 figures
 file
-file a
 filed
 filed this
 filed this lawsuit
@@ -13593,13 +13593,11 @@ first time he
 first time in
 first time she
 first time that
-first time you
 first to
 first to produce
 first to produce a
 first to produce a cancer
 first to produce a cancer free
-first to produce a cancer free cigarette
 first two
 first two questions
 first warning
@@ -13608,6 +13606,7 @@ first years
 first you
 fish
 fit
+fit in
 fits
 five
 five cigarettes
@@ -13655,6 +13654,7 @@ folks and
 folks are
 folks that
 folks the
+folks to
 folks who
 folks you
 follow
@@ -13670,6 +13670,7 @@ following discussion was
 following discussion was held
 following discussion was held at
 following discussion was held at sidebar
+following discussion was held at sidebar mr
 following discussion was held at sidebar the
 following discussion was held at sidebar the court
 following is
@@ -13713,6 +13714,7 @@ for a living
 for a long
 for a long time
 for a long time and
+for a lot
 for a minute
 for a minute about
 for a mistrial
@@ -13733,6 +13735,7 @@ for all
 for all of
 for all of the
 for all the
+for all the reasons
 for all those
 for all those years
 for almost
@@ -13755,6 +13758,7 @@ for cancer
 for cause
 for cause of
 for causing
+for cigarette
 for cigarettes
 for class
 for class membership
@@ -13770,6 +13774,7 @@ for doing
 for dr
 for each
 for each of
+for eight
 for every
 for everybody
 for example
@@ -13849,7 +13854,6 @@ for nearly
 for nearly years
 for nicotine
 for nicotine addiction
-for nicotine and
 for no
 for not
 for one
@@ -13928,12 +13932,13 @@ for the next years
 for the nicotine
 for the past
 for the plaintiff
+for the plaintiffs
 for the purpose
+for the reasons
 for the record
 for the rest
 for the rest of
 for the same
-for the surgeon
 for the time
 for the tobacco
 for the tobacco industry
@@ -13948,7 +13953,6 @@ for this
 for this case
 for those
 for three
-for three weeks
 for to
 for tobacco
 for tobacco research
@@ -14184,6 +14188,7 @@ frequency
 frequency and
 frequency of
 frequently
+fresh
 friday
 friend
 friend and
@@ -14227,7 +14232,6 @@ from dr proctor
 from every
 from family
 from heart
-from heart disease
 from her
 from her husband
 from here
@@ -14236,7 +14240,6 @@ from high school
 from him
 from his
 from his family
-from his own
 from his wife
 from in
 from it
@@ -14269,11 +14272,9 @@ from reynolds
 from smoking
 from smoking and
 from smoking cigarettes
-from smoking related
 from some
 from somebody
 from someone
-from something
 from somewhere
 from that
 from the
@@ -14394,7 +14395,6 @@ further than
 furtherance
 furtherance of
 furtherance of the
-furtherance of the conspiracy
 future
 future provide
 future provide some
@@ -14430,7 +14430,6 @@ gave him
 gave it
 gave the
 gave them
-gave to
 gave us
 gave you
 gave you a
@@ -14540,7 +14539,6 @@ gentlemen you are
 gentry
 george
 george banks
-george ciccone
 georgia
 georgia cheeley
 geraghty
@@ -14774,7 +14772,6 @@ go outside
 go over
 go right
 go see
-go that
 go the
 go there
 go through
@@ -14870,6 +14867,7 @@ going to die
 going to discuss
 going to do
 going to do about
+going to do about it
 going to do it
 going to do that
 going to do the
@@ -14947,6 +14945,7 @@ going to spend
 going to spend a
 going to stand
 going to start
+going to start with
 going to stop
 going to suggest
 going to suggest to
@@ -15047,6 +15046,7 @@ got here
 got him
 got his
 got in
+got into
 got it
 got lung
 got lung cancer
@@ -15179,6 +15179,7 @@ guy who
 guys
 guys are
 guys have
+gwen
 h
 haag
 habit
@@ -15234,10 +15235,8 @@ had cancer
 had come
 had copd
 had copd and
-had copd and that
 had copd before
 had copd in
-had copd or
 had died
 had done
 had dr
@@ -15251,7 +15250,6 @@ had he
 had heard
 had her
 had his
-had i
 had in
 had it
 had just
@@ -15263,7 +15261,6 @@ had made
 had more
 had mr
 had never
-had never heard
 had never smoked
 had no
 had no choice
@@ -15368,7 +15365,6 @@ hand
 hand and
 hand in
 handed
-handful
 handle
 hands
 hands and
@@ -15453,6 +15449,7 @@ harms suffered by
 harris
 harry
 harry reasoner
+harsh
 harvard
 harvey
 has
@@ -15552,6 +15549,7 @@ has told
 has told you
 has treated
 has yet
+has yet to
 hat
 hate
 hated
@@ -15565,6 +15563,7 @@ have a cigarette
 have a little
 have a lot
 have a lot of
+have a much
 have a problem
 have a right
 have a right to
@@ -15602,6 +15601,7 @@ have as
 have asked
 have avoided
 have back
+have become
 have been
 have been a
 have been able
@@ -15635,6 +15635,7 @@ have continued to
 have copd
 have decided
 have developed
+have developed copd
 have developed lung
 have developed lung cancer
 have died
@@ -15705,9 +15706,12 @@ have in a lung cancer cigarette case we cannot
 have in a lung cancer cigarette case we cannot defend
 have in evidence
 have in the
+have in the outcome
 have in this
 have in this case
 have informed
+have informed the
+have informed the public
 have is
 have it
 have it both
@@ -15783,6 +15787,7 @@ have seen
 have seen a
 have seen and
 have seen in
+have seen in this
 have seen it
 have seen that
 have seen the
@@ -15839,6 +15844,7 @@ have time
 have time to
 have to
 have to accept
+have to agree
 have to answer
 have to apply
 have to ask
@@ -15882,6 +15888,8 @@ have to prove to
 have to prove to you
 have to prove to you that
 have to put
+have to quit
+have to rely
 have to say
 have to show
 have to show that
@@ -16011,7 +16019,6 @@ he comes in
 he continued
 he continued to
 he continued to smoke
-he continues
 he could
 he could have
 he could have quit
@@ -16037,7 +16044,6 @@ he did not
 he did not believe
 he did not do
 he did not even
-he did not get
 he did not go
 he did not have
 he did not have a
@@ -16054,7 +16060,6 @@ he did not quit
 he did not rely
 he did not rely on
 he did not say
-he did not say that
 he did not see
 he did not show
 he did not show you
@@ -16244,7 +16249,6 @@ he made his
 he made that
 he made the
 he made up
-he made up his
 he makes
 he may
 he may have
@@ -16266,7 +16270,6 @@ he never had
 he never heard
 he never said
 he never said he
-he never said that
 he never saw
 he never smoked
 he never told
@@ -16370,7 +16373,6 @@ he should not
 he should quit
 he showed
 he showed you
-he signed
 he simply
 he smoke
 he smoked
@@ -16401,7 +16403,6 @@ he switched to
 he takes
 he talked
 he talked about
-he talked about how
 he talked about the
 he talked to
 he talked to you
@@ -16413,7 +16414,6 @@ he tell
 he tell you
 he tells
 he testified
-he testified he
 he testified that
 he testified to
 he testifies
@@ -16455,7 +16455,6 @@ he wanted
 he wanted to
 he wanted to do
 he wanted to quit
-he wanted to quit smoking
 he wanted to smoke
 he wants
 he wants to
@@ -16697,7 +16696,6 @@ hear it
 hear something
 hear that
 hear the
-hear this
 hear what
 hear you
 heard
@@ -16780,6 +16778,7 @@ heard that she
 heard that the
 heard the
 heard the evidence
+heard the judge
 heard the testimony
 heard the testimony of
 heard them
@@ -16972,6 +16971,7 @@ her in the
 her injuries
 her injury
 her it
+her it was
 her kids
 her lawyers
 her life
@@ -16995,7 +16995,6 @@ her mother was
 her not
 her now
 her on
-her opinion
 her own
 her pain
 her pain and
@@ -17207,7 +17206,6 @@ him as a
 him at
 him back
 him because
-him being
 him but
 him by
 him did
@@ -17354,7 +17352,6 @@ his daughters
 his death
 his death and
 his death now
-his death so
 his death that
 his death the
 his decision
@@ -17386,7 +17383,6 @@ his father was
 his fault
 his first
 his first cigarette
-his friend
 his friends
 his friends and
 his hand
@@ -17541,7 +17537,6 @@ honor that
 honor that is
 honor the
 honor the court
-honor the court i
 honor the court overruled
 honor the court overruled mr
 honor the court sustained
@@ -17577,7 +17572,6 @@ hope you
 hopefully
 hopes
 hoping
-hopkins
 horn
 horner
 horrible
@@ -17617,6 +17611,7 @@ how bad
 how big
 how can
 how can you
+how come
 how could
 how could he
 how dangerous
@@ -17655,6 +17650,7 @@ how many people
 how many times
 how many times did
 how mr
+how mrs
 how much
 how much he
 how much he smoked
@@ -17775,7 +17771,10 @@ i asked dr proctor
 i asked her
 i asked him
 i asked him about
+i asked him i
+i asked mr
 i asked mrs
+i asked the
 i asked you
 i asked you to
 i believe
@@ -17793,6 +17792,9 @@ i believe that nicotine is not
 i believe that nicotine is not addictive
 i believe the
 i believe they
+i believe they have
+i believe they have not
+i believe they have not been
 i bring
 i brought
 i call
@@ -17808,14 +17810,17 @@ i cannot remember
 i cannot say
 i cannot tell
 i cannot tell you
+i certainly
 i could
 i could have
 i could not
 i cross
 i cross examined
+i cross examined him
 i d
 i d ask
 i d ask you
+i d ask you to
 i d like
 i d like to
 i did
@@ -17969,7 +17974,6 @@ i ll say
 i ll show
 i ll show you
 i ll sustain
-i ll sustain the
 i ll take
 i ll talk
 i ll talk about
@@ -18161,6 +18165,7 @@ i talked
 i talked about
 i talked to
 i talked to you
+i talked to you about
 i tell
 i tell you
 i thank
@@ -18186,6 +18191,7 @@ i think in
 i think is
 i think it
 i think it is
+i think it is important
 i think it was
 i think mr
 i think she
@@ -18235,6 +18241,7 @@ i told you in opening statement that
 i told you in the
 i told you that
 i told you the
+i told you this
 i too
 i too believe
 i too believe that
@@ -18360,6 +18367,7 @@ i wrote
 idea
 idea of
 idea that
+idea was
 idea what
 ideas
 identified
@@ -18420,6 +18428,7 @@ if i could
 if i did
 if i had
 if i m
+if if
 if in
 if it
 if it did
@@ -18600,7 +18609,6 @@ if you get to this
 if you get to this point
 if you get to this question
 if you go
-if you go back
 if you go to
 if you had
 if you have
@@ -18778,7 +18786,6 @@ in 1990
 in 1991
 in 1992
 in 1993
-in 1993 and
 in 1994
 in 1994 and
 in 1995
@@ -19015,10 +19022,12 @@ in his
 in his closing
 in his closing argument
 in his deposition
+in his hand
 in his life
 in his lung
 in his mind
 in his opening
+in his opening statement
 in his opinion
 in his own
 in his testimony
@@ -19226,7 +19235,6 @@ in the car
 in the case
 in the case and
 in the case is
-in the case it
 in the case of
 in the case that
 in the case the
@@ -19242,6 +19250,7 @@ in the country
 in the course
 in the course of
 in the courtroom
+in the day
 in the deposition
 in the documents
 in the dsm
@@ -19268,6 +19277,7 @@ in the future
 in the history
 in the history of
 in the hospital
+in the hospital and
 in the house
 in the instruction
 in the instructions
@@ -19330,6 +19340,7 @@ in the surgeon general
 in the surgeon general s
 in the surgeon general s report
 in the testimony
+in the time
 in the tobacco
 in the trial
 in the united
@@ -19521,7 +19532,6 @@ indifference to
 indifference to the
 indifferent
 indifferent to
-indifferent to the
 individual
 individual smoker
 individually
@@ -19605,7 +19615,6 @@ information from the
 information he
 information in
 information is
-information it
 information not
 information not otherwise
 information not otherwise known
@@ -19648,7 +19657,6 @@ informed decision
 informed the
 informed the public
 informing
-informing the
 ingredient
 ingredient in
 ingredient in cigarette
@@ -19842,7 +19850,6 @@ into consideration
 into court
 into court and
 into evidence
-into her
 into his
 into it
 into play
@@ -19943,12 +19950,14 @@ is a powerful
 is a pretty
 is a problem
 is a question
+is a real
 is a reason
 is a reasonable
 is a record
 is a red
 is a red herring
 is a risk
+is a safer
 is a second
 is a serious
 is a significant
@@ -19959,6 +19968,8 @@ is a verdict
 is a very
 is a very important
 is a warning
+is a way
+is a whole
 is a year
 is able
 is able to
@@ -19986,6 +19997,7 @@ is addictive let me
 is addictive let me ask
 is addictive let me ask you
 is addictive let me ask you first
+is addictive that
 is addictive we
 is addictive we are
 is after
@@ -19993,6 +20005,7 @@ is again
 is all
 is all about
 is all i
+is all in
 is all it
 is all of
 is all right
@@ -20131,6 +20144,7 @@ is done
 is dr
 is dr burns
 is dr cummings
+is driving
 is easy
 is easy to
 is either
@@ -20295,7 +20309,6 @@ is in
 is in a
 is in evidence
 is in evidence and
-is in evidence you
 is in open
 is in open court
 is in the
@@ -20344,7 +20357,6 @@ is like
 is like a
 is like the
 is likely
-is living
 is look
 is looked
 is looking
@@ -20430,6 +20442,7 @@ is not a class
 is not a class action
 is not a class member
 is not a medical
+is not a medical doctor
 is not a question
 is not a single
 is not about
@@ -20644,6 +20657,7 @@ is safe
 is safer
 is saying
 is saying that
+is scant
 is seen
 is she
 is short
@@ -20822,6 +20836,7 @@ is the same
 is the same as
 is the same thing
 is the second
+is the sine
 is the standard
 is the story
 is the surgeon
@@ -20833,6 +20848,7 @@ is the tobacco
 is the total
 is the total amount
 is the total amount of
+is the total amount of damages
 is the truth
 is the type
 is the type of
@@ -20878,6 +20894,7 @@ is too
 is totally
 is treated
 is true
+is true and
 is true that
 is trying
 is trying to
@@ -20940,13 +20957,11 @@ is what their
 is what they
 is what they are
 is what they did
-is what they do
 is what they have
 is what they knew
 is what they said
 is what they told
 is what they want
-is what they want you
 is what they wanted
 is what they were
 is what this
@@ -20957,8 +20972,6 @@ is what this is
 is what was
 is what we
 is what we are
-is what we are talking
-is what we are talking about
 is what we have
 is what we know
 is what you
@@ -21124,7 +21137,6 @@ it be wonderful
 it be wonderful if
 it be wonderful if our
 it be wonderful if our company
-it be wonderful if our company was
 it became
 it because
 it because he
@@ -21162,10 +21174,8 @@ it can reasonably be said that
 it can reasonably be said that but
 it can reasonably be said that but for
 it can reasonably be said that but for the
-it can reasonably be said that but for the addiction
 it cannot
 it cannot be
-it cause
 it caused
 it caused cancer
 it causes
@@ -21262,7 +21272,6 @@ it had to
 it had to be
 it happen
 it happened
-it happens
 it has
 it has a
 it has been
@@ -21279,7 +21288,6 @@ it has to
 it has to be
 it has to be a
 it has to do
-it has to do with
 it have
 it have been
 it have to
@@ -21317,11 +21325,9 @@ it is
 it is a
 it is a big
 it is a different
-it is a habit
 it is a legal
 it is a legal cause
 it is a little
-it is a little bit
 it is a lot
 it is a much
 it is a very
@@ -21346,7 +21352,6 @@ it is bad
 it is bad for
 it is bad for you
 it is because
-it is because of
 it is been
 it is been a
 it is been a long
@@ -21354,6 +21359,7 @@ it is been known
 it is but
 it is called
 it is clear
+it is clear and
 it is clear that
 it is dangerous
 it is different
@@ -21454,7 +21460,6 @@ it is now quite clear that no
 it is now quite clear that no one
 it is now quite clear that no one is
 it is now quite clear that no one is going
-it is obvious
 it is okay
 it is okay to
 it is on
@@ -21489,7 +21494,6 @@ it is that is
 it is the
 it is the only
 it is the same
-it is the same thing
 it is their
 it is their burden
 it is there
@@ -21506,7 +21510,6 @@ it is up
 it is up to
 it is up to you
 it is up to you to
-it is up to you to decide
 it is used
 it is very
 it is very important
@@ -21560,7 +21563,6 @@ it mean
 it means
 it means is
 it means that
-it means to
 it meant
 it might
 it might be
@@ -21760,7 +21762,6 @@ it was never
 it was no
 it was not
 it was not a
-it was not an
 it was not because
 it was not for
 it was not just
@@ -21973,6 +21974,7 @@ judges of the
 judges of the facts
 judgment
 judgment and
+judgment that
 judy
 judy campbell
 julie
@@ -22016,6 +22018,7 @@ jury it
 jury mr
 jury room
 jury room and
+jury room and you
 jury room to
 jury room with
 jury room with you
@@ -22057,6 +22060,7 @@ just be
 just because
 just because you
 just before
+just briefly
 just by
 just cannot
 just could
@@ -22173,7 +22177,6 @@ justice that
 justified
 justified in
 justified in relying
-justified in relying on
 justify
 kaczynski
 kaiser
@@ -22207,7 +22210,6 @@ keep that
 keep that in
 keep that in mind
 keep the
-keep their
 keep them
 keep them smoking
 keep your
@@ -22410,7 +22412,6 @@ know how to
 know i
 know i do
 know i do not
-know i do not know
 know i m
 know i think
 know if
@@ -22455,8 +22456,6 @@ know that dr
 know that from
 know that from the
 know that he
-know that he had
-know that he smoked
 know that he was
 know that her
 know that i
@@ -22546,7 +22545,6 @@ know what was
 know what we
 know what you
 know when
-know when he
 know when you
 know where
 know whether
@@ -22670,7 +22668,6 @@ ladies and gentlemen if
 ladies and gentlemen is
 ladies and gentlemen it
 ladies and gentlemen it is
-ladies and gentlemen mr
 ladies and gentlemen of
 ladies and gentlemen of the
 ladies and gentlemen of the jury
@@ -22711,11 +22708,9 @@ larynx and
 lasard
 last
 last comment
-last couple
 last few
 last night
 last one
-last part
 last question
 last question on
 last question on the
@@ -23139,6 +23134,7 @@ like she
 like smoking
 like that
 like that and
+like that but
 like that that
 like that you
 like the
@@ -23147,6 +23143,7 @@ like this
 like this and
 like to
 like to do
+like to go
 like to have
 like to have this
 like to have this for
@@ -23202,6 +23199,7 @@ line for
 line is
 line is that
 line of
+line that
 line up
 lines
 link
@@ -23366,6 +23364,7 @@ look at this
 look at those
 look at what
 look at what dr
+look at what he
 look at what the
 look at what they
 look back
@@ -23518,6 +23517,7 @@ luck we hope we may find
 luck we hope we may find them
 luck we hope we may find them and
 luck we hope we may find them and if
+luck we hope we may find them and if they
 lucky
 lucky strike
 lucky strike and
@@ -23568,6 +23568,7 @@ lung cancer i
 lung cancer if
 lung cancer in
 lung cancer in men
+lung cancer in men and
 lung cancer is
 lung cancer it
 lung cancer it is
@@ -23581,16 +23582,19 @@ lung cancer she
 lung cancer so
 lung cancer that
 lung cancer that is
+lung cancer that was
 lung cancer the
 lung cancer there
 lung cancer there is
 lung cancer they
 lung cancer this
 lung cancer this is
+lung cancer to
 lung cancer was
 lung cancer was caused
 lung cancer was caused by
 lung cancer we
+lung cancer well
 lung cancer what
 lung cancer would
 lung cancer you
@@ -23601,6 +23605,8 @@ lung function
 lung is
 lung it
 lung primary
+lung problems
+lung so
 lung that
 lung the
 lung they
@@ -23884,7 +23890,6 @@ making false or misleading statements to promote
 making false or misleading statements to promote the
 making false or misleading statements to promote the sale
 making false or misleading statements to promote the sale of
-making his
 making it
 making money
 making that
@@ -24120,7 +24125,6 @@ may be a
 may be a legal
 may be a legal cause
 may be a legal cause of
-may be a legal cause of death
 may be hazardous
 may be hazardous to
 may be hazardous to your
@@ -24137,6 +24141,7 @@ may be subject
 may be subject to
 may be subject to a
 may be subject to a finding
+may be subject to a finding that
 may consider
 may continue
 may continue mr
@@ -24171,6 +24176,7 @@ may have
 may have been
 may have had
 may i
+may i approach
 may i have
 may i proceed
 may it
@@ -24233,6 +24239,7 @@ mccall
 mccall s
 mccarter
 mccoy
+mccoy s
 mceniry
 mceniry s
 mcgregor
@@ -24250,6 +24257,8 @@ me and
 me ask
 me ask you
 me ask you first
+me ask you first and
+me ask you first and i
 me back
 me be
 me because
@@ -24360,6 +24369,7 @@ means the more persuasive and convincing force and effect
 means the more persuasive and convincing force and effect of
 means they
 means to
+means what
 means you
 meant
 meant that
@@ -24429,6 +24439,7 @@ meet the classic definitions of addiction
 meet the classic definitions of addiction there
 meet the classic definitions of addiction there is
 meet the classic definitions of addiction there is no
+meet the criteria
 meet their
 meet their burden
 meet their burden of
@@ -24521,6 +24532,7 @@ met her burden
 met him
 met his
 met in
+met mr
 met our
 met our burden
 met that
@@ -24547,6 +24559,7 @@ michel
 mickey
 microscope
 mid
+mid 80s
 mid to
 mid to late
 middle
@@ -24582,6 +24595,7 @@ million dollars
 million for
 million in
 million is
+million million
 million of
 million or
 million pages
@@ -24599,6 +24613,7 @@ millions
 millions and
 millions and millions
 millions and millions of
+millions and millions of people
 millions of
 millions of americans
 millions of dollars
@@ -24610,6 +24625,7 @@ milton williams
 mind
 mind about
 mind and
+mind as
 mind that
 mind the
 mind to
@@ -24699,6 +24715,7 @@ mom
 mom and
 moment
 moment and
+moment but
 moment in
 moment that
 moments
@@ -24769,9 +24786,7 @@ more likely right than wrong
 more likely than
 more likely than not
 more likely than not that
-more likely that
 more likely to
-more likely true
 more minutes
 more money
 more nicotine
@@ -25018,7 +25033,6 @@ mr calloway had
 mr calloway s
 mr campbell
 mr caprio
-mr caprio s
 mr carter
 mr cavalier
 mr cavalier s
@@ -25029,8 +25043,6 @@ mr clayton
 mr cofer
 mr cofer i
 mr cofer objection
-mr cofer objection your
-mr cofer objection your honor
 mr cohen
 mr cox
 mr crawford
@@ -25045,7 +25057,6 @@ mr denton
 mr diaz
 mr dombey
 mr dombey s
-mr dombey was
 mr douglas
 mr duignan
 mr ellis
@@ -25174,17 +25185,13 @@ mr paige
 mr paige and
 mr paige i
 mr paige okay
-mr paige so
 mr pantazis
 mr patacca
 mr pendell
 mr perrotto
-mr perrotto s
 mr persons
 mr persons and
 mr persons objection
-mr persons objection the
-mr persons objection the court
 mr persons objection your
 mr persons objection your honor
 mr persons objection your honor the
@@ -25246,7 +25253,6 @@ mr smith s
 mr soffer
 mr starbuck
 mr starbuck s
-mr starbuck was
 mr stern
 mr stern objection
 mr stern objection your
@@ -25423,7 +25429,6 @@ must
 must be
 must be based
 must decide
-must decide whether
 must have
 must have been
 must in
@@ -25453,15 +25458,14 @@ my life
 my mind
 my mother
 my name
-my name is
 my objection
 my opening
 my opening statement
 my opening statement i
-my opening statement that
 my opinion
 my opinion people
 my partner
+my point
 my question
 my questioning
 my questioning on
@@ -25854,7 +25858,9 @@ nicotine or our products are addictive
 nicotine out
 nicotine out of
 nicotine patch
+nicotine patches
 nicotine receptors
+nicotine receptors in
 nicotine replacement
 nicotine she
 nicotine so
@@ -25899,12 +25905,12 @@ nitrosamines
 no
 no and
 no and again
+no and then
 no and you
 no as
 no basis
 no because
 no but
-no cancer
 no causal
 no causal link
 no causal link established
@@ -25975,6 +25981,7 @@ no further
 no he
 no he did
 no he did not
+no he was
 no i
 no i did
 no i did not
@@ -26153,6 +26160,7 @@ not a choice
 not a class
 not a class action
 not a class member
+not a criminal
 not a doctor
 not a legal
 not a legal cause
@@ -26168,6 +26176,7 @@ not a secret
 not a shred
 not a single
 not a single witness
+not a smoker
 not a substantial
 not able
 not able to
@@ -26520,7 +26529,6 @@ not it be wonderful
 not it be wonderful if
 not it be wonderful if our
 not it be wonderful if our company
-not it be wonderful if our company was
 not it is
 not it is not
 not it true
@@ -26610,7 +26618,6 @@ not matter because
 not matter if
 not matter to
 not matter what
-not matter whether
 not me
 not mean
 not mean he
@@ -26701,11 +26708,8 @@ not paying attention
 not permit
 not philip
 not philip morris
-not pick
 not play
 not prevent
-not prevent smokers
-not prevent smokers from
 not prove
 not prove that
 not proved
@@ -26777,7 +26781,6 @@ not smoking
 not so
 not some
 not somebody
-not somebody who
 not someone
 not someone who
 not something
@@ -26796,7 +26799,6 @@ not supposed
 not supposed to
 not sure
 not sure what
-not surprising
 not take
 not take it
 not talk
@@ -27084,7 +27086,6 @@ now these
 now they
 now they are
 now they want
-now they want to
 now think
 now think about
 now this
@@ -27159,6 +27160,7 @@ oath in
 oath that
 oath to
 object
+object that
 object the
 object the court
 object to
@@ -27192,6 +27194,7 @@ objection your honor improper
 objection your honor improper argument
 objection your honor may
 objection your honor may we
+objection your honor may we approach
 objection your honor misstates
 objection your honor mr
 objection your honor mr schlesinger
@@ -27223,6 +27226,7 @@ obtained
 obvious
 obviously
 obviously a
+obviously i
 obviously the
 occasion
 occasional
@@ -27286,6 +27290,7 @@ of addiction that is
 of addiction there
 of addiction there is
 of addiction there is no
+of addiction there is no intoxication
 of addiction you
 of ads
 of advertising
@@ -27297,12 +27302,14 @@ of all of the
 of all smokers
 of all that
 of all the
+of all the evidence
 of all this
 of america
 of american
 of american tobacco
 of americans
 of an
+of an ad
 of an addiction
 of and
 of another
@@ -27369,8 +27376,10 @@ of compensation
 of compensatory
 of compensatory damages
 of compounds
+of compounds in
 of concealment
 of conduct
+of conduct that
 of congress
 of context
 of control
@@ -27393,6 +27402,7 @@ of course there
 of course they
 of course we
 of course you
+of court
 of creating
 of creating doubt
 of damages
@@ -27402,6 +27412,7 @@ of david
 of days
 of death
 of death and
+of death even
 of denial
 of developing
 of developing lung
@@ -27466,6 +27477,10 @@ of god and
 of god and luck
 of god and luck we
 of god and luck we hope
+of god and luck we hope we
+of god and luck we hope we may
+of god and luck we hope we may find
+of god and luck we hope we may find them
 of going
 of harm
 of having
@@ -27763,7 +27778,6 @@ of the addiction
 of the ads
 of the american
 of the brain
-of the brands
 of the cancer
 of the case
 of the case and
@@ -27969,7 +27983,9 @@ of them in
 of them is
 of them said
 of them that
+of them the
 of them they
+of them to
 of them was
 of them were
 of them you
@@ -28014,6 +28030,7 @@ of thousands of
 of three
 of time
 of time and
+of time i
 of time in
 of time on
 of time talking
@@ -28272,6 +28289,7 @@ on but
 on cigarette
 on cigarette packs
 on cigarettes
+on cigarettes and
 on class
 on class membership
 on concealment
@@ -28380,6 +28398,7 @@ on that you
 on the
 on the back
 on the ball
+on the basis
 on the board
 on the bottom
 on the brain
@@ -28406,6 +28425,7 @@ on the fact that
 on the facts
 on the first
 on the front
+on the instructions
 on the issue
 on the issue of
 on the jury
@@ -28435,6 +28455,7 @@ on the other
 on the other hand
 on the other side
 on the pack
+on the package
 on the packages
 on the packs
 on the packs of
@@ -28452,6 +28473,7 @@ on the side of the
 on the stand
 on the stand and
 on the stand he
+on the stand i
 on the stand that
 on the subject
 on the surgeon
@@ -28467,6 +28489,7 @@ on the verdict form is
 on the verdict form that
 on the verdict form the
 on the verdict form you
+on the video
 on the way
 on the witness
 on the witness stand
@@ -28541,10 +28564,7 @@ once we
 once you
 once you get
 oncologist
-oncology
 one
-one a
-one after
 one and
 one and a
 one and a half
@@ -28615,7 +28635,6 @@ one of the documents
 one of the first
 one of the instructions
 one of the most
-one of the most important
 one of the questions
 one of the reasons
 one of the things
@@ -28645,7 +28664,6 @@ one out of
 one pack
 one pack a
 one pack a day
-one part
 one person
 one piece
 one piece of
@@ -28683,7 +28701,6 @@ one to
 one to two
 one to two packs
 one two
-one up
 one was
 one way
 one way or
@@ -28951,7 +28968,6 @@ or misleading statements to promote
 or misleading statements to promote the
 or misleading statements to promote the sale
 or misleading statements to promote the sale of
-or misleading statements to promote the sale of cigarettes
 or more
 or more nicotine
 or more of
@@ -28977,7 +28993,6 @@ or not cigarettes are hazardous we do not
 or not cigarettes are hazardous we do not believe
 or not cigarettes are hazardous we do not believe that
 or not he
-or not he was
 or not i
 or not is
 or not is their
@@ -29148,7 +29163,6 @@ other cause
 other cause if
 other causes
 other cigarette
-other cigarette companies
 other cigarettes
 other companies
 other consideration
@@ -29216,7 +29230,6 @@ our basic
 our basic position
 our basic position in
 our basic position in the
-our basic position in the cigarette
 our best
 our burden
 our burden of
@@ -29235,7 +29248,6 @@ our customers would stop using
 our customers would stop using if
 our customers would stop using if they
 our customers would stop using if they could
-our efforts
 our expert
 our experts
 our favor
@@ -29257,8 +29269,6 @@ our products
 our products are
 our products are addictive
 our share
-our share of
-our share of the
 our side
 our society
 our system
@@ -29270,9 +29280,7 @@ out a
 out about
 out all
 out and
-out and it
 out and said
-out and that
 out and they
 out and you
 out as
@@ -29438,7 +29446,6 @@ overwhelmingly
 owens
 own
 own actions
-own and
 own behavior
 own business
 own choices
@@ -29471,7 +29478,6 @@ oxygen
 p
 p d
 p m
-p m the
 pack
 pack a
 pack a day
@@ -29520,7 +29526,6 @@ page of the
 page of your
 page please
 pages
-pages and
 pages of
 paid
 paid a
@@ -29581,6 +29586,7 @@ parliament
 parotid
 part
 part and
+part i
 part in
 part is
 part of
@@ -29597,6 +29603,7 @@ part of the verdict
 part of the verdict form
 part of their
 part of this
+part of this case
 part of what
 part of your
 part that
@@ -29616,6 +29623,7 @@ parties
 parties and
 parties to
 partner
+partners
 parts
 parts of
 parts of the
@@ -29626,6 +29634,7 @@ passage
 passed
 passed away
 passes
+passes away
 passing
 past
 past and
@@ -29633,6 +29642,7 @@ past medical
 past that
 past the
 past years
+pat
 patacca
 patch
 patch and
@@ -29803,7 +29813,6 @@ percent at fault
 percent because
 percent but
 percent chance
-percent fault
 percent for
 percent in
 percent is
@@ -29872,7 +29881,6 @@ persist in
 persist in using
 persist in using tobacco
 persist in using tobacco products
-persist in using tobacco products and
 persistence
 persistent
 person
@@ -29990,6 +29998,7 @@ philip morris the
 philip morris they
 philip morris to
 philip morris usa
+philip morris usa inc
 philip morris was
 philip morris you
 philipson
@@ -30005,6 +30014,7 @@ phyllis
 phyllis surico
 physical
 physical dependence
+physical impairment
 physically
 physician
 physicians
@@ -30045,7 +30055,6 @@ pitchenik
 place
 place and
 place in
-place that
 place to
 place where
 placed
@@ -30113,7 +30122,6 @@ plaintiff s burden of proof
 plaintiff s burden to
 plaintiff s case
 plaintiff s claim
-plaintiff s claims
 plaintiff s counsel
 plaintiff s exhibit
 plaintiff s expert
@@ -30123,7 +30131,6 @@ plaintiff s own
 plaintiff s witnesses
 plaintiff showed
 plaintiff showed you
-plaintiff that
 plaintiff to
 plaintiff wants
 plaintiff wants you
@@ -30132,7 +30139,6 @@ plaintiff was
 plaintiff would
 plaintiffs
 plaintiffs are
-plaintiffs brought
 plaintiffs did
 plaintiffs did not
 plaintiffs have
@@ -30148,7 +30154,6 @@ plaintiffs want you
 plaintiffs want you to
 plan
 plan to
-plan was
 plane
 planned
 planning
@@ -30280,7 +30285,6 @@ pointing
 pointing out
 points
 points in
-points that
 points to
 poison
 policy
@@ -30314,7 +30318,6 @@ position but
 position in
 position in the
 position in the cigarette
-position in the cigarette controversy
 position is
 position is that
 position of
@@ -30328,7 +30331,6 @@ possibility
 possibility of
 possibility that
 possible
-possible and
 possible that
 possible to
 possibly
@@ -30375,7 +30377,6 @@ precise explicit lacking in confusion and of such weight
 precise explicit lacking in confusion and of such weight that
 precisely
 predicted
-preemption
 prefer
 pregnancy
 pregnant
@@ -30608,7 +30609,6 @@ products were
 professional
 professionals
 professor
-profile
 profit
 profits
 profits over
@@ -30713,6 +30713,7 @@ proved to
 proved to be
 proven
 proven and
+proven by
 proven in
 proven it
 proven that
@@ -30806,6 +30807,7 @@ published in
 published in the
 published on
 publishing
+puerto
 puff
 puffs
 pull
@@ -30862,6 +30864,7 @@ punitive damages should be
 punitive damages so
 punitive damages that
 punitive damages the
+punitive damages this
 punitive damages you
 punitives
 purdo
@@ -30961,6 +30964,7 @@ question and you
 question as
 question asks
 question because
+question becomes
 question but
 question did
 question do
@@ -30970,6 +30974,7 @@ question for you
 question has
 question he
 question here
+question how
 question i
 question i m
 question if
@@ -31183,7 +31188,6 @@ quit or
 quit or not
 quit she
 quit she did
-quit she did not
 quit smoking
 quit smoking and
 quit smoking and he
@@ -31253,7 +31257,6 @@ quite clear that no one is going
 quite clear that no one is going to
 quite clear that no one is going to tell
 quite clear that no one is going to tell him
-quite frankly
 quits
 quits smoking
 quitting
@@ -31263,7 +31266,6 @@ quitting for
 quitting he
 quitting in
 quitting is
-quitting it
 quitting smoking
 quitting smoking and
 quitting smoking now
@@ -31471,6 +31473,7 @@ reason the
 reason they
 reason to
 reason to believe
+reason to believe that
 reason we
 reason why
 reason you
@@ -31522,6 +31525,7 @@ reasons for
 reasons he
 reasons i
 reasons that
+reasons that he
 reasons the
 reasons to
 reasons why
@@ -31596,6 +31600,7 @@ records he
 records i
 records in
 records in this
+records in this case
 records it
 records of
 records say
@@ -31668,7 +31673,6 @@ regarding the health effects of cigarettes or their addictive
 regarding the health effects of cigarettes or their addictive nature
 regardless
 regardless of
-regardless of what
 regular
 regular basis
 regular cigarette
@@ -31829,8 +31833,6 @@ remember his
 remember how
 remember i
 remember i asked
-remember i asked dr
-remember i asked him
 remember i said
 remember i showed
 remember i told
@@ -31843,7 +31845,6 @@ remember it is
 remember it was
 remember mr
 remember mrs
-remember one
 remember she
 remember that
 remember that and
@@ -31908,7 +31909,6 @@ report and i
 report by
 report came
 report came out
-report came out and
 report comes
 report comes out
 report from
@@ -32050,7 +32050,6 @@ responsibility paramount to every other consideration
 responsibility paramount to every other consideration in
 responsibility that
 responsibility that is
-responsibility the
 responsibility they
 responsibility to
 responsibility we
@@ -32065,7 +32064,6 @@ responsible for the
 responsible for the choices
 responsible for their
 responsible for their own
-responsible for those
 rest
 rest of
 rest of his
@@ -32083,6 +32081,7 @@ result of the
 resulted
 resulted in
 resulting
+resulting in
 results
 results in
 results of
@@ -32103,6 +32102,7 @@ reveal
 revealed
 reverend
 reverend smith
+reverse
 review
 review of
 review of the
@@ -32129,6 +32129,8 @@ reynolds cigarettes
 reynolds concealed
 reynolds concealed or
 reynolds concealed or omitted
+reynolds concealed or omitted material
+reynolds concealed or omitted material information
 reynolds conduct
 reynolds could
 reynolds did
@@ -32136,6 +32138,7 @@ reynolds did not
 reynolds did or
 reynolds document
 reynolds documents
+reynolds does
 reynolds for
 reynolds from
 reynolds had
@@ -32150,7 +32153,9 @@ reynolds is responsible for
 reynolds it
 reynolds knew
 reynolds made
+reynolds mr
 reynolds now
+reynolds on
 reynolds or
 reynolds or any
 reynolds or philip
@@ -32165,6 +32170,7 @@ reynolds scientists
 reynolds should
 reynolds so
 reynolds that
+reynolds that is
 reynolds the
 reynolds they
 reynolds to
@@ -32191,6 +32197,7 @@ right a yes
 right a yes q
 right about
 right after
+right amount
 right and
 right and he
 right and i
@@ -32226,7 +32233,6 @@ right let us
 right mr
 right no
 right now
-right now and
 right now i
 right now so
 right now so i
@@ -32272,7 +32278,6 @@ right yes
 right you
 rights
 rights of
-rights of others
 ring
 rise
 risk
@@ -32455,7 +32460,6 @@ s digest articles
 s disease
 s doctors
 s dr
-s evidence
 s exhibit
 s expert
 s experts
@@ -32481,7 +32485,6 @@ s illness
 s in
 s injuries
 s injury
-s injury and
 s instruction
 s instructions
 s lawyers
@@ -32525,8 +32528,6 @@ s report was
 s report you
 s reports
 s responsibility
-s right
-s sister
 s smoking
 s smoking history
 s son
@@ -32566,9 +32567,7 @@ safer and
 safer cigarette
 safer cigarette and
 safer cigarettes
-safer for
 safer than
-safer that
 safer they
 safety
 safety and
@@ -32783,6 +32782,7 @@ same question
 same thing
 same thing in
 same thing that
+same thing they
 same thing with
 same things
 same time
@@ -32884,6 +32884,7 @@ say is
 say is not
 say it
 say it is
+say it is a
 say it is not
 say it was
 say look
@@ -33011,13 +33012,11 @@ says well
 says what
 says yes
 says you
-says you have
 says you know
 scale
 scales
 scales of
 scales of justice
-scam
 scan
 scanlon
 scans
@@ -33040,7 +33039,6 @@ schlesinger mr
 schlesinger objection
 schlesinger okay
 schlesinger so
-schlesinger that
 schlesinger the
 schlesinger this
 schneider
@@ -33106,6 +33104,7 @@ secret to
 secrets
 section
 section please
+sections
 security
 see
 see a
@@ -33119,6 +33118,7 @@ see from
 see her
 see here
 see him
+see his
 see how
 see i
 see if
@@ -33231,6 +33231,7 @@ sending
 senior
 sense
 sense and
+sense and good
 sense at
 sense because
 sense but
@@ -33252,6 +33253,7 @@ sent out
 sent to
 sentence
 separate
+separated
 separately
 september
 september of
@@ -33300,6 +33302,7 @@ seven
 seven or
 seven years
 seventh
+seventies
 seventy
 seventy percent
 seventy percent of
@@ -33318,6 +33321,8 @@ shape
 share
 share of
 share of the
+share of the youth
+share of the youth market
 share with
 shared
 shared with
@@ -33379,7 +33384,6 @@ she did not try
 she did not want
 she did not want to
 she did not want to quit
-she did quit
 she did she
 she did that
 she died
@@ -33392,11 +33396,9 @@ she enjoyed it
 she enjoyed smoking
 she even
 she ever
-she explained
 she felt
 she finally
 she first
-she found
 she gave
 she gets
 she goes
@@ -33593,11 +33595,9 @@ she was on
 she was on the
 she was smoking
 she was the
-she was there
 she was told
 she was trying
 she was trying to
-she was warned
 she was years
 she was years old
 she watched
@@ -33627,7 +33627,6 @@ shields said
 ship
 shock
 shocked
-shocking
 shop
 short
 short if
@@ -33739,11 +33738,8 @@ showed this
 showed up
 showed you
 showed you a
-showed you a document
-showed you a lot
 showed you all
 showed you and
-showed you documents
 showed you in
 showed you some
 showed you that
@@ -33788,10 +33784,13 @@ side of
 side of the
 side of the story
 side that
+side the
 sidebar
 sidebar concluded
 sidebar conference
 sidebar conference was
+sidebar conference was concluded
+sidebar conference was concluded and
 sidebar discussion
 sidebar discussion was
 sidebar discussion was concluded
@@ -33807,8 +33806,10 @@ sidebar the court
 sides
 sides of
 sides of the
+sight
 sign
 sign and
+sign and date
 sign of
 sign the
 signature
@@ -33889,7 +33890,6 @@ situations
 siwieck
 siwieck s
 six
-six days
 six months
 six or
 six years
@@ -33900,7 +33900,6 @@ sixty percent
 sixty percent of
 size
 size of
-skill
 skin
 skin cancer
 skin painting
@@ -33930,7 +33929,6 @@ sloan
 sloan kettering
 sloman
 slow
-slow down
 slowly
 small
 small cell
@@ -33944,7 +33942,6 @@ smell
 smith
 smith and
 smith s
-smith said
 smith was
 smoke
 smoke a
@@ -33992,6 +33989,7 @@ smoke for
 smoke for nicotine
 smoke from
 smoke he
+smoke his
 smoke i
 smoke if
 smoke in
@@ -34121,11 +34119,13 @@ smoker is
 smoker is addicted
 smoker it
 smoker must
+smoker must decide
 smoker of
 smoker or
 smoker s
 smoker s cough
 smoker she
+smoker so
 smoker that
 smoker that is
 smoker the
@@ -34133,6 +34133,7 @@ smoker they
 smoker to
 smoker was
 smoker was addicted
+smoker we
 smoker who
 smoker you
 smokers
@@ -34202,9 +34203,7 @@ smoking about
 smoking after
 smoking again
 smoking all
-smoking all the
 smoking and
-smoking and addiction
 smoking and cancer
 smoking and emphysema
 smoking and he
@@ -34433,7 +34432,6 @@ smoking she did not
 smoking she was
 smoking smoking
 smoking so
-smoking some
 smoking that
 smoking that he
 smoking that is
@@ -34544,7 +34542,6 @@ so how do
 so i
 so i do
 so i do not
-so i do not know
 so i have
 so i just
 so i ll
@@ -34598,7 +34595,6 @@ so let us talk about the
 so long
 so many
 so mr
-so mrs
 so much
 so much about
 so much for
@@ -34614,7 +34610,6 @@ so one
 so one of
 so one of the
 so people
-so please
 so she
 so she is
 so so
@@ -34842,7 +34837,6 @@ somebody who
 somebody who is
 somebody who was
 somehow
-somehow that
 someone
 someone else
 someone is
@@ -34869,7 +34863,6 @@ something from
 something he
 something i
 something in
-something in the
 something is
 something it
 something like
@@ -34881,8 +34874,6 @@ something that he
 something that i
 something that is
 something that mr
-something that philip
-something that philip morris
 something that the
 something that they
 something that was
@@ -34963,6 +34954,7 @@ speaker it
 speaker we
 speaking
 speaks
+spears
 special
 specialist
 specialty
@@ -35061,6 +35053,7 @@ standing
 standing up
 standpoint
 stands
+stanford
 star
 starbuck
 starbuck s
@@ -35148,6 +35141,7 @@ statement
 statement about
 statement and
 statement and i
+statement but
 statement by
 statement by the
 statement from
@@ -35254,6 +35248,8 @@ stop for
 stop he
 stop it
 stop making
+stop making it
+stop right
 stop smoking
 stop smoking and
 stop that
@@ -35267,10 +35263,16 @@ stop you
 stopped
 stopped and
 stopped and the
+stopped and the following
+stopped and the following is
+stopped and the following is in
+stopped and the following is in open
+stopped and the following is in open court
 stopped for
 stopped in
 stopped mr
 stopped smoking
+stopped smoking and
 stopped smoking for
 stopped smoking in
 stopping
@@ -35346,6 +35348,7 @@ study of
 study that
 studying
 stuff
+stuff about
 stuff and
 stuff in
 stuff is
@@ -35527,7 +35530,6 @@ supported
 supported by
 supported by the
 supports
-supports that
 suppose
 supposed
 supposed to
@@ -35543,7 +35545,6 @@ sure i
 sure if
 sure it
 sure mr
-sure she
 sure that
 sure the
 sure there
@@ -35622,7 +35623,6 @@ susceptible
 susceptible to
 suspect
 suspected
-suspicious
 sustain
 sustain addiction
 sustain the
@@ -35649,7 +35649,6 @@ switched to
 switched to filtered
 switched to filters
 switched to lights
-switched to marlboro
 switches
 switches to
 switching
@@ -35735,6 +35734,7 @@ take up
 take you
 take your
 taken
+taken away
 taken down
 taken down to
 taken down to the
@@ -35858,6 +35858,7 @@ talked with
 talking
 talking about
 talking about a
+talking about addiction
 talking about and
 talking about here
 talking about how
@@ -35921,6 +35922,7 @@ technician
 techniques
 technology
 ted
+teen
 teenage
 teenager
 teenagers
@@ -35979,6 +35981,7 @@ tell you that it
 tell you that mr
 tell you that she
 tell you that the
+tell you that you
 tell you the
 tell you there
 tell you they
@@ -36277,7 +36280,6 @@ that and that
 that and that is
 that and the
 that and then
-that and there
 that and they
 that and this
 that and we
@@ -36426,14 +36428,12 @@ that cigarettes caused
 that cigarettes caused cancer
 that cigarettes were
 that cigarettes were addictive
-that cigarettes were dangerous
 that cigarettes were not
 that claim
 that claire
 that claire hallgren
 that class
 that clear
-that clip
 that come
 that comes
 that comes from
@@ -36496,7 +36496,6 @@ that effect
 that either
 that even
 that even if
-that even though
 that ever
 that every
 that everybody
@@ -36513,7 +36512,6 @@ that filtered cigarettes
 that filtered cigarettes were
 that filters
 that filters were
-that finding
 that first
 that first cigarette
 that first question
@@ -36667,7 +36665,6 @@ that i m
 that i m going
 that i m going to
 that i m not
-that i mean
 that i said
 that i showed
 that i showed you
@@ -36924,6 +36921,7 @@ that is what we have
 that is what you
 that is what you are
 that is what you have
+that is what you have to
 that is when
 that is when he
 that is when she
@@ -37090,6 +37088,7 @@ that mr bowman
 that mr brown
 that mr calloway
 that mr caprio
+that mr cavalier
 that mr clark
 that mr cuculino
 that mr davis
@@ -37218,6 +37217,7 @@ that part of the
 that paul
 that people
 that people are
+that people do
 that people smoke
 that people were
 that people who
@@ -37237,6 +37237,7 @@ that plaintiff
 that plaintiff has
 that plaintiff s
 that plaintiffs
+that please
 that point
 that point in
 that point in time
@@ -37278,6 +37279,7 @@ that reynolds did
 that reynolds is
 that reynolds was
 that right
+that risk
 that rjr
 that robert
 that robert hoover
@@ -37325,6 +37327,7 @@ that she thought
 that she told
 that she tried
 that she wanted
+that she wanted to
 that she was
 that she was a
 that she was addicted
@@ -37408,7 +37411,6 @@ that standard
 that started
 that started in
 that statement
-that statement yes
 that story
 that study
 that stuff
@@ -37536,7 +37538,6 @@ that they did
 that they did not
 that they do
 that they do not
-that they got
 that they had
 that they have
 that they have to
@@ -37585,7 +37586,6 @@ that to be
 that to the
 that to you
 that tobacco
-that tobacco companies
 that today
 that told
 that too
@@ -37627,7 +37627,6 @@ that was made
 that was not
 that was not a
 that was not the
-that was not true
 that was on
 that was one
 that was one of
@@ -37681,7 +37680,6 @@ that we may find out what causes cancer
 that we may find out what causes cancer and
 that we may find out what causes cancer and we
 that we put
-that we saw
 that we should
 that we showed
 that we showed you
@@ -37697,7 +37695,6 @@ that were
 that were a
 that were a legal
 that were a legal cause
-that were a legal cause of
 that were being
 that were defective
 that were defective and
@@ -37706,7 +37703,6 @@ that were defective and unreasonably dangerous
 that were in
 that were made
 that were not
-that were on
 that were the
 that what
 that what he
@@ -37724,7 +37720,6 @@ that when i
 that when it
 that when mr
 that when she
-that when the
 that when they
 that when we
 that when you
@@ -37745,7 +37740,6 @@ that without
 that witness
 that witness stand
 that word
-that work
 that would
 that would be
 that would be a
@@ -37951,7 +37945,6 @@ the amount of damages
 the amount of evidence
 the amount of money
 the amount of nicotine
-the amount that
 the and
 the answer
 the answer is
@@ -38129,7 +38122,9 @@ the cause of
 the cause of death
 the cause of her
 the cause of his
+the cause of his death
 the cause of mr
+the cause of the
 the causes
 the causes of
 the cell
@@ -38182,6 +38177,7 @@ the cigarette market
 the cigarette market would
 the cigarette market would collapse
 the cigarette pack
+the cigarette smoke
 the cigarette smoking
 the cigarette that
 the cigarettes
@@ -38223,6 +38219,7 @@ the clip
 the clock
 the closing
 the colon
+the combination
 the comment
 the committee
 the committee says
@@ -38238,6 +38235,7 @@ the company that
 the comparative
 the comparative fault
 the compensatory
+the components
 the concealment
 the concealment and
 the concealment or
@@ -38550,12 +38548,14 @@ the end of this
 the engle
 the engle case
 the engle class
+the engle class action
 the engle class and
 the engle finding
 the engle findings
 the engle findings and
 the engle findings do
 the engle findings do not
+the engle findings do not establish
 the engle jury
 the enjoyment
 the entire
@@ -38711,7 +38711,6 @@ the fact that you
 the fact witnesses
 the factors
 the facts
-the facts about
 the facts and
 the facts and the
 the facts are
@@ -38804,7 +38803,6 @@ the following discussion was
 the following discussion was held
 the following discussion was held at
 the following discussion was held at sidebar
-the following discussion was held at sidebar mr
 the following discussion was held at sidebar the
 the following discussion was held at sidebar the court
 the following is
@@ -38833,7 +38831,6 @@ the fourth
 the frank
 the frank statement
 the frank statement and
-the frankness
 the fraud
 the fraudulent
 the fraudulent concealment
@@ -38895,7 +38892,6 @@ the harms
 the harms and
 the hazards
 the hazards of
-the hazards of smoking
 the head
 the head of
 the head of the
@@ -39075,6 +39071,7 @@ the judge is going to
 the judge is going to give
 the judge is going to instruct
 the judge is going to instruct you
+the judge just
 the judge read
 the judge s
 the judge s instructions
@@ -39458,12 +39455,14 @@ the only one
 the only one that
 the only one who
 the only person
+the only person that
 the only person who
 the only question
 the only reason
 the only thing
 the only thing that
 the only time
+the only two
 the only way
 the only witness
 the opening
@@ -39538,6 +39537,7 @@ the percent
 the percentage
 the percentage of
 the percentage of any
+the percentage of any fault
 the percentage of fault
 the percentages
 the perfect
@@ -39558,6 +39558,7 @@ the philip morris
 the phone
 the phrase
 the physical
+the physiological
 the picture
 the picture of
 the pictures
@@ -39566,6 +39567,7 @@ the pieces of
 the place
 the plaintiff
 the plaintiff and
+the plaintiff bears
 the plaintiff cannot
 the plaintiff did
 the plaintiff did not
@@ -39592,6 +39594,7 @@ the plaintiff s expert
 the plaintiff s experts
 the plaintiff s lawyers
 the plaintiff s own
+the plaintiff s witnesses
 the plaintiff to
 the plaintiff would
 the plaintiffs
@@ -39611,6 +39614,7 @@ the point of
 the point that
 the point where
 the polls
+the popular
 the population
 the position
 the position of
@@ -39636,6 +39640,7 @@ the press
 the primary
 the principal
 the prior
+the probability
 the problem
 the problem is
 the problem with
@@ -40208,7 +40213,6 @@ the verdict
 the verdict form
 the verdict form and
 the verdict form and i
-the verdict form as
 the verdict form but
 the verdict form i
 the verdict form if
@@ -40263,7 +40267,6 @@ the warnings on
 the warnings on the
 the warnings that
 the warnings went
-the warnings went on
 the warnings were
 the water
 the waxman
@@ -40292,7 +40295,6 @@ the ways
 the website
 the week
 the weight
-the weight you
 the what
 the while
 the white
@@ -40471,7 +40473,6 @@ them and if they are found they will be
 them and if they are found they will be removed
 them and the
 them and they
-them and we
 them and you
 them are
 them as
@@ -40493,7 +40494,6 @@ them he
 them here
 them i
 them if
-them if you
 them in
 them in the
 them into
@@ -40502,7 +40502,6 @@ them it
 them it is
 them more
 them mr
-them no
 them not
 them now
 them of
@@ -40517,7 +40516,6 @@ them smoking
 them so
 them that
 them that is
-them that they
 them the
 them there
 them they
@@ -40598,7 +40596,10 @@ then to
 then want
 then want to
 then want to do
+then want to do whether
+then want to do whether they
 then we
+then we are
 then we get
 then we have
 then we will
@@ -40667,6 +40668,7 @@ there can
 there can be
 there could
 there could be
+there dr
 there for
 there had
 there has
@@ -40845,7 +40847,6 @@ there was testimony
 there was the
 there was this
 there we
-there we go
 there were
 there were a
 there were a lot
@@ -40991,6 +40992,7 @@ they are just
 they are legal
 they are looking
 they are making
+they are more
 they are not
 they are not going
 they are not going to
@@ -41005,6 +41007,7 @@ they are still
 they are talking
 they are talking about
 they are telling
+they are telling you
 they are the
 they are the ones
 they are the ones that
@@ -41041,7 +41044,6 @@ they can
 they can be
 they can do
 they can get
-they can make
 they cannot
 they cannot be
 they cannot break
@@ -41083,7 +41085,6 @@ they did
 they did a
 they did and
 they did in
-they did is
 they did it
 they did it for
 they did not
@@ -41197,7 +41198,6 @@ they have to prove to
 they have to prove to you
 they have to prove to you that
 they have to show
-they have to show that
 they heard
 they hid
 they hired
@@ -41295,7 +41295,6 @@ they said and
 they said he
 they said in
 they said it
-they said it was
 they said that
 they said the
 they said they
@@ -41495,10 +41494,13 @@ things because
 things but
 things for
 things from
+things have
 things he
 things he said
 things i
+things i m
 things i want
+things i want to
 things in
 things in the
 things it
@@ -41506,6 +41508,7 @@ things like
 things like that
 things mr
 things on
+things one
 things she
 things so
 things that
@@ -41528,6 +41531,7 @@ things they did
 things to
 things we
 things were
+things when
 things you
 things you have
 think
@@ -41688,6 +41692,7 @@ this case and you
 this case are
 this case as
 this case based
+this case based on
 this case because
 this case but
 this case by
@@ -41707,6 +41712,7 @@ this case is all
 this case is all about
 this case is not
 this case is not about
+this case is only
 this case is that
 this case it
 this case it is
@@ -41725,6 +41731,7 @@ this case state whether
 this case that
 this case that is
 this case that mr
+this case that the
 this case that you
 this case the
 this case there
@@ -41759,11 +41766,13 @@ this country and
 this court
 this courtroom
 this courtroom and
+this courtroom in
 this courtroom that
 this courtroom you
 this day
 this defendant
 this did
+this did not
 this disease
 this doctor
 this document
@@ -41778,6 +41787,7 @@ this evidence
 this evidence that
 this family
 this far
+this far on
 this first
 this first question
 this for
@@ -41840,7 +41850,6 @@ this is harry reasoner
 this is her
 this is his
 this is how
-this is i
 this is important
 this is in
 this is in evidence
@@ -41941,6 +41950,7 @@ this morning you
 this mr
 this not
 this now
+this okay
 this on
 this on the
 this one
@@ -41970,10 +41980,13 @@ this program
 this question
 this question and
 this question if
+this question if you
 this question is
 this question of
 this question on
 this question on the
+this question on the verdict
+this question on the verdict form
 this question the
 this question you
 this really
@@ -42043,6 +42056,7 @@ this whole thing
 this will
 this with
 this woman
+this world
 this would
 this would be
 this year
@@ -42071,6 +42085,7 @@ those decisions
 those diseases
 those doctors
 those documents
+those documents and
 those engle
 those engle findings
 those facts
@@ -42094,6 +42109,7 @@ those questions
 those questions and
 those reasons
 those records
+those reports
 those same
 those smokers
 those statements
@@ -42169,7 +42185,6 @@ three different
 three four
 three major
 three major fronts
-three major fronts litigation
 three months
 three of
 three of them
@@ -42199,8 +42214,6 @@ through acts of god and
 through acts of god and luck
 through acts of god and luck we
 through acts of god and luck we hope
-through acts of god and luck we hope we
-through acts of god and luck we hope we may
 through all
 through all of
 through all of the
@@ -42303,7 +42316,6 @@ time i m
 time if
 time in
 time in the
-time in this
 time is
 time is short
 time is short if
@@ -42319,7 +42331,6 @@ time now
 time of
 time of the
 time on
-time on it
 time or
 time period
 time she
@@ -42351,7 +42362,6 @@ time we
 time what
 time when
 time when he
-time when the
 time where
 time with
 time you
@@ -42368,7 +42378,6 @@ times did
 times he
 times i
 times in
-times in the
 times it
 times more
 times over
@@ -42389,7 +42398,6 @@ tirc
 tirc and
 tirc the
 tired
-tisch
 tissue
 title
 to
@@ -42478,7 +42486,6 @@ to base
 to be
 to be a
 to be a class
-to be a class member
 to be a legal
 to be a legal cause
 to be a legal cause of
@@ -42499,7 +42506,6 @@ to be based
 to be clear
 to be done
 to be fair
-to be harmful
 to be here
 to be in
 to be in the
@@ -42545,6 +42551,7 @@ to believe it
 to believe that
 to believe that he
 to believe the
+to believe what
 to blame
 to both
 to both of
@@ -42553,6 +42560,7 @@ to breathe
 to bring
 to bring you
 to build
+to build a
 to but
 to buy
 to by
@@ -42560,6 +42568,7 @@ to call
 to call it
 to cancer
 to carry
+to carry the
 to carry their
 to carry their burden
 to cause
@@ -42572,6 +42581,7 @@ to check
 to children
 to choose
 to choose to
+to church
 to cigarette
 to cigarette smoking
 to cigarettes
@@ -42593,6 +42603,7 @@ to cigarettes containing nicotine was
 to cigarettes that
 to claim
 to class
+to class membership
 to clear
 to come
 to come back
@@ -42769,6 +42780,7 @@ to do to
 to do was
 to do we
 to do what
+to do when
 to do whether
 to do whether they
 to do with
@@ -42908,10 +42920,12 @@ to go down
 to go into
 to go on
 to go out
+to go out and
 to go over
 to go through
 to go through all
 to go through all of
+to go through it
 to go through that
 to go through the
 to go through this
@@ -42976,6 +42990,7 @@ to his detriment
 to his detriment on
 to his detriment on any
 to his detriment on any statement
+to his doctors
 to his health
 to his lung
 to his smoking
@@ -43003,7 +43018,6 @@ to in
 to increase
 to increase the
 to indict
-to indict cigarette
 to infer
 to influence
 to inhale
@@ -43031,12 +43045,10 @@ to just go down the row whether each of you
 to keep
 to keep in
 to keep in mind
-to keep it
 to keep people
 to keep people smoking
 to keep smokers
 to keep smoking
-to keep that
 to keep the
 to keep them
 to keep your
@@ -43249,7 +43261,6 @@ to quit
 to quit all
 to quit and
 to quit and he
-to quit and i
 to quit and she
 to quit and that
 to quit and the
@@ -43269,7 +43280,6 @@ to quit he was
 to quit his
 to quit i
 to quit if
-to quit if you
 to quit in
 to quit in the
 to quit is
@@ -43311,7 +43321,6 @@ to quit what
 to quit when
 to quit when he
 to quit you
-to quit you are
 to quitting
 to r
 to r j
@@ -43324,12 +43333,10 @@ to read the
 to read them
 to really
 to reassure
-to receive
 to recover
 to reduce
 to reduce the
 to refer
-to refute
 to reject
 to rely
 to rely on
@@ -43475,7 +43482,6 @@ to some of the
 to somebody
 to someone
 to something
-to sort
 to speak
 to speak to
 to speak to you
@@ -43503,7 +43509,6 @@ to strike the
 to strike the court
 to study
 to sue
-to suffer
 to suggest
 to suggest that
 to suggest to
@@ -43551,6 +43556,7 @@ to talk with
 to talk with you
 to teach
 to tell
+to tell her
 to tell him
 to tell him it
 to tell him it is
@@ -43674,12 +43680,15 @@ to the question of whether or not cigarettes
 to the question of whether or not cigarettes are
 to the question of whether or not cigarettes are hazardous
 to the questions
+to the rights
+to the rights of
 to the same
 to the second
 to the store
 to the surgeon
 to the surgeon general
 to the surgeon general s
+to the surgeon general s report
 to the time
 to the tobacco
 to the tobacco companies
@@ -43755,6 +43764,7 @@ to use your common
 to use your common sense
 to visit
 to wait
+to wait for
 to walk
 to walk through
 to walk through the
@@ -43881,6 +43891,7 @@ to you whether you like it or not no one
 to you why
 to you with
 to you you
+to you you know
 to young
 to your
 to your brain
@@ -43893,10 +43904,12 @@ tobacco abuse
 tobacco addiction
 tobacco and
 tobacco and health
+tobacco are
 tobacco cases
 tobacco companies
 tobacco companies and
 tobacco companies are
+tobacco companies but
 tobacco companies did
 tobacco companies for
 tobacco companies had
@@ -43905,6 +43918,7 @@ tobacco companies knew
 tobacco companies or
 tobacco companies said
 tobacco companies that
+tobacco companies the
 tobacco companies they
 tobacco companies to
 tobacco companies were
@@ -44024,7 +44038,6 @@ told you during
 told you from
 told you from the
 told you he
-told you he did
 told you he is
 told you he was
 told you how
@@ -44063,7 +44076,6 @@ told you that when
 told you that you
 told you the
 told you there
-told you there is
 told you they
 told you this
 told you this is
@@ -44224,6 +44236,7 @@ trick
 tricked
 tried
 tried and
+tried but
 tried harder
 tried harder to
 tried harder to quit
@@ -44344,6 +44357,7 @@ turn to
 turn to the
 turned
 turned out
+turned out to
 turning
 turns
 turns out
@@ -44483,6 +44497,7 @@ unfiltered pall
 unfiltered pall mall
 unfortunate
 unfortunately
+unhealthy
 unidentified
 unidentified speaker
 union
@@ -44517,7 +44532,6 @@ unrebutted
 unrelated
 unrelated to
 unsafe
-unsatisfied
 unsuccessful
 until
 until 1988
@@ -44584,7 +44598,6 @@ up in the middle of
 up in the middle of the
 up in the middle of the night
 up in the morning
-up in the morning and
 up is
 up it
 up it is
@@ -44743,7 +44756,6 @@ use in
 use it
 use of
 use of the
-use of tobacco
 use that
 use the
 use the dsm
@@ -44833,7 +44845,6 @@ ventilation
 verdict
 verdict and
 verdict for
-verdict for the
 verdict form
 verdict form and
 verdict form and i
@@ -45086,7 +45097,6 @@ want to
 want to address
 want to be
 want to be clear
-want to be the
 want to come
 want to do
 want to do is
@@ -45193,7 +45203,6 @@ wanted to quit and
 wanted to quit smoking
 wanted to show
 wanted to smoke
-wanted to smoke and
 wanted to stop
 wanted to talk
 wanted you
@@ -45216,6 +45225,7 @@ ware
 warn
 warned
 warned about
+warned by
 warned her
 warned him
 warned of
@@ -45231,6 +45241,7 @@ warning labels on
 warning on
 warning on it
 warning on the
+warning on the pack
 warning that
 warning the
 warning the surgeon
@@ -45265,6 +45276,7 @@ warranted against
 warranted and
 warranted in
 warranted in this
+warranted in this case
 warranted you
 warrants
 warrick
@@ -45275,6 +45287,7 @@ was a big
 was a cause
 was a cause of
 was a cause of his
+was a child
 was a choice
 was a class
 was a class member
@@ -45433,7 +45446,6 @@ was coming
 was coming out
 was common
 was concealed
-was concealed from
 was concerned
 was concerned about
 was concluded
@@ -45488,7 +45500,6 @@ was false or misleading or failed to disclose
 was false or misleading or failed to disclose a
 was false or misleading or failed to disclose a material
 was filed
-was finally
 was first
 was for
 was found
@@ -45513,7 +45524,6 @@ was harmful
 was having
 was he
 was he addicted
-was he addicted and
 was he addicted to
 was he addicted to cigarettes
 was he was
@@ -45790,6 +45800,7 @@ was taken
 was taking
 was talking
 was talking about
+was talking about the
 was talking to
 was telling
 was telling you
@@ -45828,7 +45839,6 @@ was the only
 was the person
 was the reason
 was the same
-was the surgeon
 was the testimony
 was their
 was then
@@ -45898,7 +45908,6 @@ watched the
 watching
 water
 waxman
-waxman hearings
 way
 way and
 way back
@@ -46228,13 +46237,10 @@ we hope we may find them and if they are
 we just
 we just do
 we just do not
-we just saw
 we keep
 we knew
 we know
 we know about
-we know about mr
-we know about the
 we know and
 we know for
 we know from
@@ -46293,7 +46299,6 @@ we made
 we make
 we make are
 we make are not
-we make are not injurious
 we may
 we may find
 we may find out
@@ -46387,7 +46392,6 @@ we think
 we think that
 we think the
 we think the evidence
-we think you
 we thought
 we told
 we told you
@@ -46444,7 +46448,6 @@ we would
 we would all
 we would all lose
 we would all lose our
-we would all lose our jobs
 we would ask
 we would be
 we would have
@@ -46548,7 +46551,6 @@ well let me
 well let us
 well let us look
 well let us look at
-well look
 well maybe
 well mr
 well now
@@ -46571,7 +46573,6 @@ well they
 well this
 well this is
 well wait
-well wait a
 well we
 well we are
 well we do
@@ -46616,7 +46617,6 @@ went through all
 went through the
 went to
 went to a
-went to see
 went to the
 went to the doctor
 went up
@@ -46862,7 +46862,6 @@ what dr proctor told
 what dr proctor told you
 what else
 what else did
-what else do
 what everybody
 what evidence
 what evidence did
@@ -46870,13 +46869,11 @@ what happened
 what happened and
 what happened here
 what happened in
-what happened in this
 what happened to
 what happened to him
 what happened to mr
 what happened when
 what happens
-what happens in
 what happens to
 what happens when
 what has
@@ -46894,7 +46891,6 @@ what he said
 what he said about
 what he said and
 what he said he
-what he said he said
 what he said in
 what he said was
 what he says
@@ -47132,6 +47128,7 @@ what we heard
 what we know
 what we know about
 what we know is
+what we think
 what were
 what were the
 what were they
@@ -47235,6 +47232,7 @@ when he was diagnosed
 when he was diagnosed with
 when he was in
 when he was in the
+when he was motivated
 when he was on
 when he was smoking
 when he was years
@@ -47336,6 +47334,7 @@ when you are thinking about
 when you came
 when you come
 when you consider
+when you consider the
 when you do
 when you get
 when you get back
@@ -47543,6 +47542,7 @@ which
 which are
 which dr
 which has
+which have
 which he
 which i
 which is
@@ -47614,6 +47614,8 @@ who actually
 who ain
 who ain t
 who ain t for
+who ain t for more
+who ain t for more money
 who are
 who are addicted
 who are not
@@ -47624,6 +47626,7 @@ who can
 who could
 who did
 who did not
+who did the
 who died
 who do
 who do not
@@ -47651,6 +47654,7 @@ who is not
 who is responsible
 who is responsible for
 who is the
+who just
 who knew
 who knew mr
 who knows
@@ -47682,6 +47686,7 @@ who took
 who treated
 who tried
 who want
+who want to
 who wanted
 who wanted to
 who was
@@ -47834,6 +47839,7 @@ will decide
 will die
 will do
 will find
+will follow
 will get
 will get a
 will get the
@@ -47973,7 +47979,6 @@ with dr
 with dr burns
 with dr cummings
 with dr proctor
-with dr wynder
 with each
 with each other
 with emphysema
@@ -48080,9 +48085,6 @@ with you i
 with you in
 with you that
 with you the
-with you this
-with you to
-with you you
 with your
 withdrawal
 withdrawal and
@@ -48092,7 +48094,6 @@ withdrawal symptoms that
 withheld
 within
 within a
-within a reasonable
 within the
 without
 without a
@@ -48118,6 +48119,7 @@ witness he
 witness in
 witness in this
 witness in this case
+witness said
 witness stand
 witness stand and
 witness that
@@ -48149,6 +48151,7 @@ wonderful
 wonderful if
 wonderful if our
 wonderful if our company
+wonderful if our company was
 woods
 woods objection
 word
@@ -48341,6 +48344,8 @@ would not have acted
 would not have acted as
 would not have been
 would not have developed
+would not have developed lung
+would not have developed lung cancer
 would not have died
 would not have gotten
 would not have occurred
@@ -48352,6 +48357,7 @@ would not it be wonderful
 would not it be wonderful if
 would not it be wonderful if our
 would not it be wonderful if our company
+would not it be wonderful if our company was
 would not smoke
 would not you
 would object
@@ -48490,6 +48496,7 @@ year later
 year mr
 year of
 year old
+year old boy
 year old man
 year olds
 year or
@@ -48508,6 +48515,7 @@ years a
 years after
 years after he
 years after she
+years after that
 years after the
 years ago
 years ago and
@@ -48628,6 +48636,7 @@ yes this
 yes to
 yes to question
 yes to that
+yes to this
 yes video
 yes video clip
 yes voice
@@ -48717,7 +48726,6 @@ you and the
 you and then
 you and they
 you and this
-you and this is
 you and we
 you and what
 you and you
@@ -48782,7 +48790,6 @@ you are going to see
 you are going to see that
 you are here
 you are here to
-you are here to decide
 you are in
 you are in the
 you are just
@@ -49039,7 +49046,6 @@ you go
 you go back
 you go back and
 you go back in
-you go back there
 you go back to
 you go back to the
 you go back to the jury
@@ -49068,7 +49074,6 @@ you have already
 you have already heard
 you have an
 you have an opinion
-you have and
 you have any
 you have been
 you have been here
@@ -49136,12 +49141,9 @@ you have to go
 you have to have
 you have to look
 you have to look at
-you have to look at the
 you have to make
 you have to prove
-you have to put
 you have to think
-you have to think about
 you have to use
 you have two
 you have your
@@ -49199,7 +49201,6 @@ you heard that
 you heard that from
 you heard that he
 you heard that in
-you heard that she
 you heard that the
 you heard the
 you heard the evidence
@@ -49282,9 +49283,7 @@ you know people
 you know she
 you know that
 you know that he
-you know that in
 you know that is
-you know that is not
 you know that mr
 you know that the
 you know the
@@ -49473,7 +49472,6 @@ you saw some
 you saw that
 you saw the
 you saw the evidence
-you saw them
 you saw these
 you saw this
 you saw what
@@ -49549,7 +49547,6 @@ you that dr
 you that even
 you that he
 you that he did
-you that he did not
 you that he had
 you that he was
 you that her
@@ -49654,6 +49651,7 @@ you to do that
 you to find
 you to focus
 you to focus on
+you to get
 you to give
 you to go
 you to have
@@ -49703,6 +49701,7 @@ you want to be
 you want to do
 you want to know
 you want to look
+you want to stop
 you want to talk
 you want to talk about
 you wanted
@@ -49795,8 +49794,10 @@ you will see this
 you will take
 you willing
 you willing to
+you wish
 you with
 you with the
+you work
 you would
 you would be
 you would expect
@@ -49823,6 +49824,7 @@ you you are
 you you can
 you you cannot
 you you have
+you you heard
 you you know
 you you will
 you you would
@@ -49909,7 +49911,6 @@ your honor that
 your honor that is
 your honor the
 your honor the court
-your honor the court i
 your honor the court overruled
 your honor the court overruled mr
 your honor the court sustained
@@ -49971,7 +49972,6 @@ your verdict form
 your verdict is
 your verdict is for
 your verdict should
-your verdict you
 your way
 your wife
 your work
@@ -50167,7 +50167,6 @@ s/he did not try
 s/he did not want
 s/he did not want to
 s/he did not want to quit
-s/he did quit
 s/he did that
 s/he died
 s/he do
@@ -50179,11 +50178,9 @@ s/he enjoyed it
 s/he enjoyed smoking
 s/he even
 s/he ever
-s/he explained
 s/he felt
 s/he finally
 s/he first
-s/he found
 s/he gave
 s/he gets
 s/he goes
@@ -50372,7 +50369,6 @@ s/he was on
 s/he was on the
 s/he was smoking
 s/he was the
-s/he was there
 s/he was told
 s/he was trying
 s/he was trying to
@@ -50459,7 +50455,6 @@ quit and s/he
 quit because s/he
 quit s/he
 quit s/he did
-quit s/he did not
 quit smoking s/he
 quit when s/he
 reason s/he
@@ -50492,7 +50487,6 @@ smoking when s/he was
 so s/he
 so s/he is
 something s/he
-sure s/he
 tell you s/he
 tell you that s/he
 testified s/he
@@ -50532,6 +50526,7 @@ that s/he thought
 that s/he told
 that s/he tried
 that s/he wanted
+that s/he wanted to
 that s/he was
 that s/he was a
 that s/he was addicted
@@ -50653,7 +50648,6 @@ years old s/he
 yes s/he
 you s/he
 you s/he was
-you heard that s/he
 you know s/he
 you that s/he
 you that s/he was

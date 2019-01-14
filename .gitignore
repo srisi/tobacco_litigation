@@ -113,3 +113,8 @@ venv.bak/
 .pydevproject
 
 *.lprof
+
+tobacco_litigation/data/frequency_ratio_defense_taboos.csv
+tobacco_litigation/data/frequency_ratio_plaintiff_taboos.csv
+
+*.pickle
