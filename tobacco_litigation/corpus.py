@@ -157,9 +157,9 @@ class LitigationCorpus:
         >>> from tobacco_litigation.corpus import LitigationCorpus
         >>> c = LitigationCorpus()
         >>> extracts = c.get_search_term_extracts(side='defendant', search_term='Proctor',
-        ...                                       extract_size=40)
+        ...                                       extract_size=40, no_passages=10000)
         >>> extracts[0]['text']
-        'a big deal out of this? because dr. proctor, on so many issues, so many things in'
+        'a bridge. all that stuff that dr. proctor talked about, pixie dust, not proof.'
 
         :rtype: list
         """
