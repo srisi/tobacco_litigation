@@ -362,6 +362,7 @@ def add_synthetic_terms(corpus, vocabulary, dtm_count_all, dtm_count_plaintiff,
                            'father', 'mother', 'grandfather', 'grandmother',
                            'daughter', 'daughters', 'granddaughter', 'son', 'sons', 'grandson',
                            'uncle', 'aunt']),
+            ('friend/s', ['friend', 'friends'])
         ]
 
         for addition in additions:

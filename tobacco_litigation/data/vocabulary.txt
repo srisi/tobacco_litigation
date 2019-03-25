@@ -50011,6 +50011,7 @@ decision/s
 risk/s
 warning/s
 RELATIVES
+friend/s
 about s/he
 about how s/he
 about what s/he
