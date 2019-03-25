@@ -139,8 +139,6 @@ class LitigationCorpus:
                     yield " ".join(closing.part_of_speech)
                 else:
                     if split_text_into_sections:
-
-
                         text_clean_split = closing.get_text_for_tokenization().split()
                         sections = [" ".join(text_clean_split[i:i + 100]) for i in
                                     range(0, len(text_clean_split), 100)]
