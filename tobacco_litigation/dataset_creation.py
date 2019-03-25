@@ -5,7 +5,9 @@ from collections import defaultdict
 
 import nltk
 import numpy as np
+from datetime import datetime
 import pandas as pd
+from IPython import embed
 from scipy.sparse import hstack
 from sklearn.feature_extraction.text import CountVectorizer
 
@@ -104,7 +106,7 @@ def create_distinctive_terms_dataset(part_of_speech):
     vocabulary, dtm_count_all, dtm_count_plaintiff, dtm_count_defendant = get_count_doc_term_matrices(
         max_features, min_df, corpus, part_of_speech)
 
-    print("Finished tokenizing")
+    print(f"{datetime.now().strftime('%H:%M:%S')} Finished tokenizing")
     print("\nDistinctive terms matrices")
     print(f"All. Shape: {dtm_count_all.shape}. Count: {dtm_count_all.sum()}")
     print(f"Plaintiff. Shape: {dtm_count_plaintiff.shape}. Count: {dtm_count_plaintiff.sum()}")
@@ -117,6 +119,7 @@ def create_distinctive_terms_dataset(part_of_speech):
     frequency_ratio, frequency_ratio_p = stats.frequency_score()
     mann_whitney_rho, mann_whitney_rho_p = stats.mann_whitney_rho()
     dunning_log_likelihood, dunning_log_likelihood_p = stats.dunning_log_likelihood()
+    print(f"{datetime.now().strftime('%H:%M:%S')} Finished stats")
 
     if not part_of_speech:
         # Store a dict that maps from token to pos
@@ -133,6 +136,7 @@ def create_distinctive_terms_dataset(part_of_speech):
         stats_sections = StatisticalAnalysis(section_dtm_count_all, section_dtm_count_plaintiff,
                                              section_dtm_count_defendant, section_vocabulary)
         term_correlations = stats_sections.correlation_coefficient()
+        print(f"{datetime.now().strftime('%H:%M:%S')} Finished correlations")
 
     # Aggregate data before storing the results
     plaintiff_term_sums = np.array(dtm_count_plaintiff.sum(axis=0)).flatten()
@@ -203,6 +207,8 @@ def create_distinctive_terms_dataset(part_of_speech):
         cur.execute(sql_insert, list(t.values()))
     con.commit()
 
+    print(f"{datetime.now().strftime('%H:%M:%S')} Stored results.")
+
 
 def get_count_doc_term_matrices(max_features: int, min_df: float, corpus: LitigationCorpus,
                                 part_of_speech: bool, split_text_into_sections=False):
@@ -239,10 +245,12 @@ def get_count_doc_term_matrices(max_features: int, min_df: float, corpus: Litiga
     dtm_count_plaintiff = count_vectorizer_sides.transform(docs_plaintiff_iterator)
     dtm_count_defendant = count_vectorizer_sides.transform(docs_defendant_iterator)
 
-    # add all of the synthetic terms to the vocabulary and the dtms
-    vocabulary, dtm_count_all, dtm_count_plaintiff, dtm_count_defendant = add_synthetic_terms(
-        corpus, vocabulary, dtm_count_all, dtm_count_plaintiff, dtm_count_defendant, part_of_speech
-    )
+    # add all of the synthetic terms to the vocabulary and the dtms except when split into sections
+    # for correlations.
+    if not split_text_into_sections:
+        vocabulary, dtm_count_all, dtm_count_plaintiff, dtm_count_defendant = add_synthetic_terms(
+            corpus, vocabulary, dtm_count_all, dtm_count_plaintiff, dtm_count_defendant, part_of_speech
+        )
 
     return vocabulary, dtm_count_all, dtm_count_plaintiff, dtm_count_defendant
 
@@ -410,6 +418,16 @@ def add_synthetic_terms(corpus, vocabulary, dtm_count_all, dtm_count_plaintiff,
             except (ValueError, AttributeError):
                 pass
 
+        # add LIWC categories
+        liwc_all, liwc_vocab = corpus.get_liwc_dtm_and_vocabulary('both')
+        liwc_plaintiff, _ = corpus.get_liwc_dtm_and_vocabulary('plaintiff')
+        liwc_defendant, _ = corpus.get_liwc_dtm_and_vocabulary('defendant')
+        additions_all = hstack([additions_all, liwc_all])
+        additions_plaintiff = hstack([additions_plaintiff, liwc_plaintiff])
+        additions_defendant = hstack([additions_defendant, liwc_defendant])
+        vocabulary += liwc_vocab
+
+        # stack main dtms with all additions
         dtm_count_all = hstack([dtm_count_all, additions_all]).tocsr()
         dtm_count_plaintiff = hstack([dtm_count_plaintiff, additions_plaintiff]).tocsr()
         dtm_count_defendant = hstack([dtm_count_defendant, additions_defendant]).tocsr()

@@ -1,6 +1,8 @@
 import re
+import csv
 import pickle
 from pathlib import Path
+
 
 import nltk
 from IPython import embed
@@ -42,6 +44,8 @@ class Closing:
         self.text_clean = self._load_text()
         if load_part_of_speech:
             self.part_of_speech = self._load_part_of_speech()
+
+        self.liwc_data = self._load_liwc_data()
 
     def _load_text(self):
         """
@@ -152,12 +156,47 @@ class Closing:
 
         return pos_tags
 
+    def _load_liwc_data(self):
+        """
+        Loads liwc data for the document as a dict into the liwc_data attribute
+
+        >>> from tobacco_litigation.corpus import Closing
+        >>> c = Closing('ahrens', 'plaintiff', 1, 2006, 2006, 'w', 'PM', 'Kaczynski', 9000000,
+        ...             5000000, 'ahrens1_1_c_p.txt', 'kglw0225')
+        >>> c.liwc_data['LIWC_pronoun']
+        6512
+
+
+        :return:
+        """
+        liwc_path = Path(BASE_PATH, 'data', 'liwc.csv')
+
+        raw_data = {}
+        with open(liwc_path) as csv_file:
+            for row in csv.DictReader(csv_file):
+                if row['Filename'] == self.filename:
+                    raw_data = row
+                    break
+        if not raw_data:
+            raise ValueError(f'No LIWC data available for {self.filename}.')
+
+        word_count = int(raw_data['WC'])
+        liwc_data = {}
+        for category, value in raw_data.items():
+            if category in ['Filename', 'Segment', 'WC', 'Analytic', 'Clout', 'Authentic', 'Tone',
+                            'WPS', 'Sixltr', 'Dic']:
+                continue
+            else:
+                liwc_data[f'LIWC_{category}'] = int(word_count * float(value) / 100)
+
+        return liwc_data
+
 
 if __name__ == '__main__':
 
     c = Closing('c', 'plaintiff', 1, '1998', '1987', 'w', 'RJR', 'test', 100, 100,
                 'ahrens1_1_c_d.txt', 'otehu')
     from tobacco_litigation.corpus import LitigationCorpus
-    corpus = LitigationCorpus()
-    ex = corpus.get_search_term_extracts('plaintiff', 'Proctor')
-    embed()
+#    corpus = LitigationCorpus()
+#    ex = corpus.get_search_term_extracts('plaintiff', 'Proctor')
+#    embed()
