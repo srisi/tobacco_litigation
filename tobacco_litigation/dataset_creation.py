@@ -72,12 +72,13 @@ def create_json_dataset():
 
         # Correlations are not calculated for the synthetic terms. In those cases, we
         # store a placeholder.
-        try:
-            # The correlated terms list is stored as a str -> parse to list
-            correlated_terms = eval(row[17])
-            row[17] = [(cor[0], round(cor[1], 3)) for cor in correlated_terms]
-        except SyntaxError:
-            row[17] = [('n/a', 0.0) for _ in range(5)]
+        if not row[0].startswith('LIWC'):
+            try:
+                # The correlated terms list is stored as a str -> parse to list
+                correlated_terms = eval(row[17])
+                row[17] = [(cor[0], round(cor[1], 3)) for cor in correlated_terms]
+            except SyntaxError:
+                row[17] = [('n/a', 0.0) for _ in range(5)]
 
         data.append(row)
 
