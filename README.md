@@ -8,6 +8,9 @@ than 10,000,000 words.
 You can find an interactive visualization of the results on 
 [Tobacco Analytics.](http://www.tobacco-analytics.org/litigation)
 
+As of March 2019, you can search for both individual terms and [Linguistic Inquiry and Word Count
+(LIWC) categories](http://liwc.wpengine.com/). 
+
 
 ## Code Organization
 This repository contains all of the code as well as the results from our analysis of tobacco 

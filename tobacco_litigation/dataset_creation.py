@@ -5,7 +5,9 @@ from collections import defaultdict
 
 import nltk
 import numpy as np
+from datetime import datetime
 import pandas as pd
+from IPython import embed
 from scipy.sparse import hstack
 from sklearn.feature_extraction.text import CountVectorizer
 
@@ -13,6 +15,8 @@ from tobacco_litigation.configuration import WORD_SPLIT_PATTERN, STOP_WORDS_LITI
     NGRAM_RANGE, STOP_WORDS_SKLEARN
 from tobacco_litigation.corpus import LitigationCorpus
 from tobacco_litigation.stats import StatisticalAnalysis
+
+from tobacco_litigation.liwc import create_liwc_category_term_lists
 
 
 def create_json_dataset():
@@ -68,12 +72,13 @@ def create_json_dataset():
 
         # Correlations are not calculated for the synthetic terms. In those cases, we
         # store a placeholder.
-        try:
-            # The correlated terms list is stored as a str -> parse to list
-            correlated_terms = eval(row[17])
-            row[17] = [(cor[0], round(cor[1], 3)) for cor in correlated_terms]
-        except SyntaxError:
-            row[17] = [('n/a', 0.0) for _ in range(5)]
+        if not row[0].startswith('LIWC'):
+            try:
+                # The correlated terms list is stored as a str -> parse to list
+                correlated_terms = eval(row[17])
+                row[17] = [(cor[0], round(cor[1], 3)) for cor in correlated_terms]
+            except SyntaxError:
+                row[17] = [('n/a', 0.0) for _ in range(5)]
 
         data.append(row)
 
@@ -91,6 +96,8 @@ def create_distinctive_terms_dataset(part_of_speech):
 
     :param part_of_speech: If True, use POS. Else, use the text of the closings
     """
+    print(f"{datetime.now().strftime('%H:%M:%S')} Creating Dataset. POS: {part_of_speech}")
+
 
     corpus = LitigationCorpus()
 
@@ -104,19 +111,18 @@ def create_distinctive_terms_dataset(part_of_speech):
     vocabulary, dtm_count_all, dtm_count_plaintiff, dtm_count_defendant = get_count_doc_term_matrices(
         max_features, min_df, corpus, part_of_speech)
 
-    print("Finished tokenizing")
+    print(f"{datetime.now().strftime('%H:%M:%S')} Finished tokenizing")
     print("\nDistinctive terms matrices")
     print(f"All. Shape: {dtm_count_all.shape}. Count: {dtm_count_all.sum()}")
     print(f"Plaintiff. Shape: {dtm_count_plaintiff.shape}. Count: {dtm_count_plaintiff.sum()}")
     print(f"Defendant. Shape: {dtm_count_defendant.shape}. Count: {dtm_count_defendant.sum()}")
-
-#    from IPython import embed;embed()
 
     # Run the statistical analyses for the corpus
     stats = StatisticalAnalysis(dtm_count_all, dtm_count_plaintiff, dtm_count_defendant, vocabulary)
     frequency_ratio, frequency_ratio_p = stats.frequency_score()
     mann_whitney_rho, mann_whitney_rho_p = stats.mann_whitney_rho()
     dunning_log_likelihood, dunning_log_likelihood_p = stats.dunning_log_likelihood()
+    print(f"{datetime.now().strftime('%H:%M:%S')} Finished stats")
 
     if not part_of_speech:
         # Store a dict that maps from token to pos
@@ -133,6 +139,8 @@ def create_distinctive_terms_dataset(part_of_speech):
         stats_sections = StatisticalAnalysis(section_dtm_count_all, section_dtm_count_plaintiff,
                                              section_dtm_count_defendant, section_vocabulary)
         term_correlations = stats_sections.correlation_coefficient()
+        print(f"{datetime.now().strftime('%H:%M:%S')} Finished correlations")
+
 
     # Aggregate data before storing the results
     plaintiff_term_sums = np.array(dtm_count_plaintiff.sum(axis=0)).flatten()
@@ -142,6 +150,11 @@ def create_distinctive_terms_dataset(part_of_speech):
     total_plaintiff = dtm_count_plaintiff.sum()
     total_defendant = dtm_count_defendant.sum()
     total_all = dtm_count_all.sum()
+
+
+    # Used to identify LIWC difference drivers
+    liwc_category_term_lists = create_liwc_category_term_lists()
+    diff_term_sums = abs(plaintiff_term_sums - defendant_term_sums)
 
     # Store the results in a list, which can then be inserted into distinctive_tokens.db
     results = []
@@ -174,10 +187,38 @@ def create_distinctive_terms_dataset(part_of_speech):
 
         token['correlated_terms'] = ''
         if not part_of_speech:
-            try:
-                token['correlated_terms'] = str(term_correlations[token['token']])
-            except KeyError:
-                print(f"Correlated tokens for {token['token']} not available.")
+
+            if token['token'].startswith('LIWC'):
+
+                category = token['token'][5:]
+                category_terms = liwc_category_term_lists[category]
+
+                # category_difference_drivers lists the terms that contribute the most to
+                # the overall category divergence.
+                category_difference_drivers = []
+                for term in category_terms:
+                    try:
+                        term_id = vocabulary.index(term)
+                        category_difference_drivers.append({
+                            'diff': diff_term_sums[term_id],
+                            'str': f'{term} (P: {plaintiff_term_sums[term_id]}. D: '
+                                   f'{defendant_term_sums[term_id]}))'
+                        })
+                    # some terms are not in the vocabulary
+                    except ValueError:
+                        pass
+                category_difference_drivers.sort(key = lambda x:x['diff'], reverse=True)
+
+                # Store the result in the correlated_terms slot.
+                token['correlated_terms'] += f'Difference Drivers for {token["token"]}: '
+                token['correlated_terms'] = ". ".join([cat['str'] for cat
+                                                            in category_difference_drivers[:10]])
+
+            else:
+                try:
+                    token['correlated_terms'] = str(term_correlations[token['token']])
+                except KeyError:
+                    print(f"Correlated tokens for {token['token']} not available.")
 
         # Check if the token includes a frequent term (only for text, not pos)
         token['includes_frequent_term'] = 0
@@ -202,6 +243,8 @@ def create_distinctive_terms_dataset(part_of_speech):
         sql_insert = f'REPLACE INTO distinctive_terms({",".join(t.keys())}) VALUES({placeholder});'
         cur.execute(sql_insert, list(t.values()))
     con.commit()
+
+    print(f"{datetime.now().strftime('%H:%M:%S')} Stored results.")
 
 
 def get_count_doc_term_matrices(max_features: int, min_df: float, corpus: LitigationCorpus,
@@ -239,10 +282,12 @@ def get_count_doc_term_matrices(max_features: int, min_df: float, corpus: Litiga
     dtm_count_plaintiff = count_vectorizer_sides.transform(docs_plaintiff_iterator)
     dtm_count_defendant = count_vectorizer_sides.transform(docs_defendant_iterator)
 
-    # add all of the synthetic terms to the vocabulary and the dtms
-    vocabulary, dtm_count_all, dtm_count_plaintiff, dtm_count_defendant = add_synthetic_terms(
-        corpus, vocabulary, dtm_count_all, dtm_count_plaintiff, dtm_count_defendant, part_of_speech
-    )
+    # add all of the synthetic terms to the vocabulary and the dtms except when split into sections
+    # for correlations.
+    if not split_text_into_sections:
+        vocabulary, dtm_count_all, dtm_count_plaintiff, dtm_count_defendant = add_synthetic_terms(
+            corpus, vocabulary, dtm_count_all, dtm_count_plaintiff, dtm_count_defendant, part_of_speech
+        )
 
     return vocabulary, dtm_count_all, dtm_count_plaintiff, dtm_count_defendant
 
@@ -362,6 +407,7 @@ def add_synthetic_terms(corpus, vocabulary, dtm_count_all, dtm_count_plaintiff,
                            'father', 'mother', 'grandfather', 'grandmother',
                            'daughter', 'daughters', 'granddaughter', 'son', 'sons', 'grandson',
                            'uncle', 'aunt']),
+            ('friend/s', ['friend', 'friends'])
         ]
 
         for addition in additions:
@@ -409,6 +455,16 @@ def add_synthetic_terms(corpus, vocabulary, dtm_count_all, dtm_count_plaintiff,
             except (ValueError, AttributeError):
                 pass
 
+        # add LIWC categories
+        liwc_all, liwc_vocab = corpus.get_liwc_dtm_and_vocabulary('both')
+        liwc_plaintiff, _ = corpus.get_liwc_dtm_and_vocabulary('plaintiff')
+        liwc_defendant, _ = corpus.get_liwc_dtm_and_vocabulary('defendant')
+        additions_all = hstack([additions_all, liwc_all])
+        additions_plaintiff = hstack([additions_plaintiff, liwc_plaintiff])
+        additions_defendant = hstack([additions_defendant, liwc_defendant])
+        vocabulary += liwc_vocab
+
+        # stack main dtms with all additions
         dtm_count_all = hstack([dtm_count_all, additions_all]).tocsr()
         dtm_count_plaintiff = hstack([dtm_count_plaintiff, additions_plaintiff]).tocsr()
         dtm_count_defendant = hstack([dtm_count_defendant, additions_defendant]).tocsr()

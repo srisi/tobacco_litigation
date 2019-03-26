@@ -50011,6 +50011,7 @@ decision/s
 risk/s
 warning/s
 RELATIVES
+friend/s
 about s/he
 about how s/he
 about what s/he
@@ -50652,3 +50653,76 @@ you know s/he
 you that s/he
 you that s/he was
 you think s/he
+LIWC 1st Person Plural
+LIWC 1st Person Singular
+LIWC 2nd Person
+LIWC 3rd Person Plural
+LIWC 3rd Person Singular
+LIWC Achievement
+LIWC Affective Processes
+LIWC Affiliation
+LIWC Anger
+LIWC Anxiety
+LIWC Articles
+LIWC Assent
+LIWC Auxiliary Verbs
+LIWC Biological Processes
+LIWC Body
+LIWC Causation
+LIWC Certainty
+LIWC Cognitive Processes
+LIWC Common Adjectives
+LIWC Common Adverbs
+LIWC Common Verbs
+LIWC Comparisons
+LIWC Conjunctions
+LIWC Death
+LIWC Differentiation
+LIWC Discrepancy
+LIWC Drives
+LIWC Family
+LIWC Feel
+LIWC Female References
+LIWC Fillers
+LIWC Friends
+LIWC Future Focus
+LIWC Health
+LIWC Hear
+LIWC Home
+LIWC Impersonal Pronouns
+LIWC Informal Language
+LIWC Ingestion
+LIWC Insight
+LIWC Interrogatives
+LIWC Leisure
+LIWC Male References
+LIWC Money
+LIWC Motion
+LIWC Negations
+LIWC Negative Emotion
+LIWC Netspeak
+LIWC Nonfluencies
+LIWC Numbers
+LIWC Past Focus
+LIWC Perceptual Processes
+LIWC Positive Emotion
+LIWC Power
+LIWC Prepositions
+LIWC Present Focus
+LIWC Presonal Pronouns
+LIWC Quantifiers
+LIWC Relativity
+LIWC Religion
+LIWC Reward
+LIWC Risk
+LIWC Sadness
+LIWC See
+LIWC Sexual
+LIWC Social Processes
+LIWC Space
+LIWC Swear Words
+LIWC Tentative
+LIWC Time
+LIWC Total Function Words
+LIWC Total Pronouns
+LIWC Work

@@ -1,8 +1,11 @@
 import random
 import re
 from pathlib import Path
+from IPython import embed
 
 import pandas
+import numpy as np
+from scipy.sparse import csr_matrix
 
 from tobacco_litigation.closing import Closing
 from tobacco_litigation.configuration import BASE_PATH
@@ -44,6 +47,12 @@ class LitigationCorpus:
             self._load_test_corpus()
 
 
+    def __repr__(self):
+        return f'LitigationCorpus with {len(self.closings)} closings.'
+
+    def __len__(self):
+        return len(self.closings)
+
     def _load_closings(self):
         """
         Loads all closings
@@ -74,8 +83,6 @@ class LitigationCorpus:
 
         return closings
 
-    def __repr__(self):
-        return f'LitigationCorpus with {len(self.closings)} closings.'
 
     def _load_test_corpus(self):
         """
@@ -106,12 +113,17 @@ class LitigationCorpus:
 
 
 
-    def document_iterator(self, side, part_of_speech=False, split_text_into_sections=False):
+    def document_iterator(self, side, part_of_speech=False, split_text_into_sections=False,
+                          yield_complete_closing=False):
         """
         Provides a document iterator that yields one closing statement at a time
         Accepts 'plaintiff', 'defendant', and 'both' as side.
 
         split_text_into_slices=True yields each text in 100 word slices
+
+        3/19: added yield_complete closing, which returns the whole closing. Used to add liwc terms
+        However, the implementation is janky (too many chained if-else, if split_text True, the
+        complete closing will never be returned.
 
         >>> from tobacco_litigation.corpus import LitigationCorpus
         >>> c = LitigationCorpus()
@@ -147,7 +159,10 @@ class LitigationCorpus:
                         for section in sections:
                             yield section
                     else:
-                        yield closing.get_text_for_tokenization()
+                        if yield_complete_closing:
+                            yield closing
+                        else:
+                            yield closing.get_text_for_tokenization()
 
     def get_search_term_extracts(self, side, search_term, extract_size=100, no_passages=100):
         """
@@ -207,9 +222,41 @@ class LitigationCorpus:
 
         return sections
 
+    def get_liwc_dtm_and_vocabulary(self, side):
+        """
+        Returns a CSR matrix of the liwc categories for the selected side
+
+        >>> from tobacco_litigation.corpus import LitigationCorpus
+        >>> c = LitigationCorpus()
+        >>> dtm, vocab = c.get_liwc_dtm_and_vocabulary('plaintiff')
+        >>> vocab[:2]
+        ['LIWC 1st Person Plural', 'LIWC 1st Person Singular']
+
+        # Currently, liwc has 73 categories -> dtm will have 73 cols.
+        >>> dtm.shape
+        (159, 73)
+
+        :param side:
+        :return:
+        """
+        liwc_categories = sorted(self.closings[0].liwc_data.keys())
+        if side == 'both':
+            liwc_dtm = np.zeros(shape=(len(self.closings), len(liwc_categories)), dtype=np.int64)
+        else:
+            liwc_dtm = np.zeros(shape=(int(len(self.closings) / 2), len(liwc_categories)),
+                                       dtype=np.int64)
+        cl_idx = 0
+        for closing in self.closings:
+            if side == 'both' or side == closing.side:
+                for liwc_idx, liwc_cat in enumerate(liwc_categories):
+                    liwc_dtm[cl_idx, liwc_idx] = closing.liwc_data[liwc_cat]
+                cl_idx += 1
+
+        liwc_dtm = csr_matrix(liwc_dtm)
+        return liwc_dtm, liwc_categories
+
 
 if __name__ == '__main__':
 
     corpus = LitigationCorpus(load_part_of_speech=False)
-    ex = corpus.get_search_term_extracts('plaintiff', 'Proctor')
-    print("LEN", len(ex))
+    corpus.get_liwc_dtm_and_vocabulary('both')
