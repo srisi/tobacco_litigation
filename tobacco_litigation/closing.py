@@ -3,8 +3,9 @@ import csv
 import pickle
 from pathlib import Path
 
-
 import nltk
+
+from tobacco_litigation.liwc import LWIC_ABREV_TO_CAT
 from IPython import embed
 
 from tobacco_litigation.configuration import CONTRACTIONS, WORD_SPLIT_REGEX, \
@@ -163,13 +164,13 @@ class Closing:
         >>> from tobacco_litigation.corpus import Closing
         >>> c = Closing('ahrens', 'plaintiff', 1, 2006, 2006, 'w', 'PM', 'Kaczynski', 9000000,
         ...             5000000, 'ahrens1_1_c_p.txt', 'kglw0225')
-        >>> c.liwc_data['LIWC_pronoun']
+        >>> c.liwc_data['LIWC Total Pronouns']
         6512
 
 
         :return:
         """
-        liwc_path = Path(BASE_PATH, 'data', 'liwc.csv')
+        liwc_path = Path(BASE_PATH, 'data', 'liwc_scores_by_closing.csv')
 
         raw_data = {}
         with open(liwc_path) as csv_file:
@@ -183,11 +184,15 @@ class Closing:
         word_count = int(raw_data['WC'])
         liwc_data = {}
         for category, value in raw_data.items():
-            if category in ['Filename', 'Segment', 'WC', 'Analytic', 'Clout', 'Authentic', 'Tone',
-                            'WPS', 'Sixltr', 'Dic']:
+            if category in ['Filename', 'Segment', 'WC',
+                            'Analytic', 'Clout', 'Authentic', 'Tone',
+                            'WPS', 'Sixltr', 'Dic',
+                            'AllPunc', 'Period', 'Comma', 'Colon', 'SemiC', 'QMark', 'Exclam',
+                            'Dash', 'Quote', 'Apostro', 'Parenth', 'OtherP']:
                 continue
             else:
-                liwc_data[f'LIWC_{category}'] = int(word_count * float(value) / 100)
+                category = LWIC_ABREV_TO_CAT[category]
+                liwc_data[f'LIWC {category}'] = int(word_count * float(value) / 100)
 
         return liwc_data
 

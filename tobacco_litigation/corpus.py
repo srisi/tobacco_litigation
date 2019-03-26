@@ -230,11 +230,11 @@ class LitigationCorpus:
         >>> c = LitigationCorpus()
         >>> dtm, vocab = c.get_liwc_dtm_and_vocabulary('plaintiff')
         >>> vocab[:2]
-        ['LIWC_achieve', 'LIWC_adj']
+        ['LIWC 1st Person Plural', 'LIWC 1st Person Singular']
 
-        # Currently, liwc has 67 categories -> dtm will have 67 cols.
+        # Currently, liwc has 73 categories -> dtm will have 73 cols.
         >>> dtm.shape
-        (159, 67)
+        (159, 73)
 
         :param side:
         :return:
@@ -254,12 +254,6 @@ class LitigationCorpus:
 
         liwc_dtm = csr_matrix(liwc_dtm)
         return liwc_dtm, liwc_categories
-
-
-        embed()
-
-
-
 
 
 if __name__ == '__main__':

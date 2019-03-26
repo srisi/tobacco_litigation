@@ -16,6 +16,8 @@ from tobacco_litigation.configuration import WORD_SPLIT_PATTERN, STOP_WORDS_LITI
 from tobacco_litigation.corpus import LitigationCorpus
 from tobacco_litigation.stats import StatisticalAnalysis
 
+from tobacco_litigation.liwc import create_liwc_category_term_lists
+
 
 def create_json_dataset():
     """
@@ -93,6 +95,8 @@ def create_distinctive_terms_dataset(part_of_speech):
 
     :param part_of_speech: If True, use POS. Else, use the text of the closings
     """
+    print(f"{datetime.now().strftime('%H:%M:%S')} Creating Dataset. POS: {part_of_speech}")
+
 
     corpus = LitigationCorpus()
 
@@ -111,8 +115,6 @@ def create_distinctive_terms_dataset(part_of_speech):
     print(f"All. Shape: {dtm_count_all.shape}. Count: {dtm_count_all.sum()}")
     print(f"Plaintiff. Shape: {dtm_count_plaintiff.shape}. Count: {dtm_count_plaintiff.sum()}")
     print(f"Defendant. Shape: {dtm_count_defendant.shape}. Count: {dtm_count_defendant.sum()}")
-
-#    from IPython import embed;embed()
 
     # Run the statistical analyses for the corpus
     stats = StatisticalAnalysis(dtm_count_all, dtm_count_plaintiff, dtm_count_defendant, vocabulary)
@@ -138,6 +140,7 @@ def create_distinctive_terms_dataset(part_of_speech):
         term_correlations = stats_sections.correlation_coefficient()
         print(f"{datetime.now().strftime('%H:%M:%S')} Finished correlations")
 
+
     # Aggregate data before storing the results
     plaintiff_term_sums = np.array(dtm_count_plaintiff.sum(axis=0)).flatten()
     defendant_term_sums = np.array(dtm_count_defendant.sum(axis=0)).flatten()
@@ -146,6 +149,11 @@ def create_distinctive_terms_dataset(part_of_speech):
     total_plaintiff = dtm_count_plaintiff.sum()
     total_defendant = dtm_count_defendant.sum()
     total_all = dtm_count_all.sum()
+
+
+    # Used to identify LIWC difference drivers
+    liwc_category_term_lists = create_liwc_category_term_lists()
+    diff_term_sums = abs(plaintiff_term_sums - defendant_term_sums)
 
     # Store the results in a list, which can then be inserted into distinctive_tokens.db
     results = []
@@ -178,10 +186,38 @@ def create_distinctive_terms_dataset(part_of_speech):
 
         token['correlated_terms'] = ''
         if not part_of_speech:
-            try:
-                token['correlated_terms'] = str(term_correlations[token['token']])
-            except KeyError:
-                print(f"Correlated tokens for {token['token']} not available.")
+
+            if token['token'].startswith('LIWC'):
+
+                category = token['token'][5:]
+                category_terms = liwc_category_term_lists[category]
+
+                # category_difference_drivers lists the terms that contribute the most to
+                # the overall category divergence.
+                category_difference_drivers = []
+                for term in category_terms:
+                    try:
+                        term_id = vocabulary.index(term)
+                        category_difference_drivers.append({
+                            'diff': diff_term_sums[term_id],
+                            'str': f'{term} (P: {plaintiff_term_sums[term_id]}. D: '
+                                   f'{defendant_term_sums[term_id]}))'
+                        })
+                    # some terms are not in the vocabulary
+                    except ValueError:
+                        pass
+                category_difference_drivers.sort(key = lambda x:x['diff'], reverse=True)
+
+                # Store the result in the correlated_terms slot.
+                token['correlated_terms'] += f'Difference Drivers for {token["token"]}: '
+                token['correlated_terms'] = ". ".join([cat['str'] for cat
+                                                            in category_difference_drivers[:10]])
+
+            else:
+                try:
+                    token['correlated_terms'] = str(term_correlations[token['token']])
+                except KeyError:
+                    print(f"Correlated tokens for {token['token']} not available.")
 
         # Check if the token includes a frequent term (only for text, not pos)
         token['includes_frequent_term'] = 0
