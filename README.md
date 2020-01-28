@@ -5,6 +5,8 @@ analysis of the tobacco industry's courtroom rhetoric.
 In total, our corpus consists of 318 closings from 159 Engle Progeny cases, consisting of more
 than 10,000,000 words. 
 
+Our findings are published in Tobacco Control:[Stephan Risi and Robert Proctor. "Big Tobacco Focuses on the Facts to Hide the Truth: an Algorithmic Exploration of Courtroom Tropes and Taboos," Tobacco Control. Published Online First: 13 September 2019. doi: 10.1136/tobaccocontrol-2019-054953.](https://tobaccocontrol.bmj.com/content/early/2019/09/27/tobaccocontrol-2019-054953)
+
 You can find an interactive visualization of the results on 
 [Tobacco Analytics.](http://www.tobacco-analytics.org/litigation)
 
